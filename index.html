@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-		<title>Bootstrap 101 Template</title>
+		<title>主页</title>
 		<!-- Bootstrap -->
 		<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="static/css/index.css" />
@@ -85,16 +85,38 @@
 							<li class="active"><a class="console" href="#">控制台 <span class="sr-only"></span></a></li>
 							<li class="" role="presentation">
 								<!--二级菜单添加menu-second-box-->
-								<a class="menu-second-box management" href="" data-toggle="dropdown">业务管理</a>
+								<a class="menu-second-box management" href="" data-toggle="dropdown">业务管理<span class="pull-right down-icon"></span></a>
 								<ul class="menu-second">
-									<li class="active"><a href="team">团队成员</a></li>
-									<li><a href="team">团队成员</a></li>
-									<li><a href="team">团队成员</a></li>
-									<li><a href="team">团队成员</a></li>
+									<li class="active"><a class="team">团队成员</a></li>
+									<li><a class="street-settings">扫街设置</a></li>
+									<li><a href="" class="client-exploit">客户开发</a></li>
+									<li><a href="" class="yw-examine">业务考核</a></li>
+									<li><a href="" class="mission">任务</a></li>
 								</ul>
 							</li>
-							<li class=""><a href="#">Analytics</a></li>
-							<li><a href="#">Export</a></li>
+							<li class="">
+								<a href="" class="menu-second-box cli-manage" data-toggle="dropdown">客户管理<span class="pull-right down-icon"></span></a>
+								<ul class="menu-second">
+									<li class="active"><a href="team">商家管理</a></li>
+									<li><a href="">活跃度</a></li>
+									<li><a href="">沉积客户</a></li>
+									<li><a href="">二次提货</a></li>
+									<li><a href="">关联查询</a></li>
+								</ul>
+							</li>
+							<li><a href="" class="product-sales">产品销量</a></li>
+							<li><a href="" class="inventory">库存</a></li>
+							<li><a href="" class="active-note">活动通知</a></li>
+							<li><a href="" class="statistics">统计</a></li>
+							<li>
+								<a href="#" class="menu-second-box basic-settings" data-toggle="dropdown">基础设置<span class="pull-right down-icon"></span></a>
+								<ul class="menu-second">
+									<li class="active"><a href="team">区域划分</a></li>
+									<li><a href="">组织结构</a></li>
+									<li><a href="">权限设置</a></li>
+									<li><a href="">装好管理</a></li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 					<script type="text/javascript">
