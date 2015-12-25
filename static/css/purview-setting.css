@@ -62,11 +62,15 @@
 }
 /*角色列表 */
 .role-list{
-	height: 100%;
+	min-height: 500px;
 	background: #FFF;
 	padding: 0px 0 20px 20px;
 	padding-right: 0;
+	border-bottom-left-radius: 5px;
 	/*border-right: 1px solid rgb(221, 221, 221);*/
+}
+.role-list .nav-tabs{
+	height: 100%;
 }
 .role-list >.nav{
 	border-bottom: none;
@@ -102,7 +106,7 @@
 }
 .setting-title{
 	position: relative;
-	padding: 10px 0 10px 46px;
+	padding: 10px 20px 10px 46px;
 	border-radius:0 4px 0 0;
 	font-size: 14px;
 	font-weight: bold;
@@ -129,20 +133,192 @@
 	background: url(../img/icon/purview-setting/right-icon/bkj.png) no-repeat;
 }
 .icon{
-	display: block;
+	position: relative;
+	z-index: 10000;
 	width: 20px;
 	height: 20px;
 	margin-left: 10px;
+	cursor: pointer;
+	display: none;
+}
+.role-list li.active>a>i.icon,
+.role-list li>a:hover>i.icon{
+	display: block;
 }
 .query-icon{
 	float: right;
-	cursor: pointer;
 	background: url(../img/icon/purview-setting/left-icon/ck2.png) no-repeat;
 }
 .delete-icon{
 	float: right;
-	cursor: pointer;
 	background: url(../img/icon/purview-setting/left-icon/sc2.png) no-repeat;
-	
 }
+.role-list i.icon> span{
+	position: absolute;
+	top: 20px;
+	left: -5px;
+	display: block;
+	width: 35px;
+	padding: 2px 4px;
+	background: rgba(126,126,126,0.3);
+	font-style: normal;
+	color: #FFF;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	display: none;
+}
+.delete-icon:hover span.delete-text{
+	display: block;
+}
+.query-icon:hover span.query-text{
+	display: block;
+}
+.marg-l-10{
+	margin-left: 26px;
+}
+.icon-add{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(../img/icon/purview-setting/left-icon/add.png);
+}
+.scroller {
+    margin: 0 !important;
+    padding: 0 12px 0 0 !important;
+}
+/*设置滚动条的样式*/
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+    background: rgba(0,0,0,0.4);
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+    background: #000;
+    background: #E0E0E0;
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+    background: rgba(0,0,0,0.4);
+}
+.divide-32{
+	height: 32px;
+}
+.setting-list{
+	padding-left: 30px;
+	padding-right: 15px;
+}
+/*权限设置ul li*/
+.nav-purview{
+	list-style-type: none;
+	/*margin-left: 15px;*/
+}
+/*权限一级级菜单样式 */
+.nav-purview .qx-second-box{
+	width: 100%;
+	height: 40px;
+	line-height: 20px;
+	padding-left: 40px;
+	border-bottom: 1px solid #EAEAEA;
+	font-size: 12px;
+	color: #595959;
+	font-weight: bold;
+}
+/*一级：hove ，active*/
+.nav-purview .active .qx-second-box,
+.nav-purview .qx-second-box:hover,
+.nav-purview> li> a.qx-second-box:active,
+.nav-purview> li> a.qx-second-box:focus{
+	background: #FFF;
+	color: #595959;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #EAEAEA;
+}
+.dropdown-icon{
+	position: absolute;
+	left:0px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/icon/purview-setting/right-icon/jh2.png);
+}
+li.active >a.qx-second-box >i.dropdown-icon{
+	background: url(../img/icon/purview-setting/right-icon/jh1.png);
+}
+.qx-second{
+	display: none;		
+}
+li.active .qx-second{
+	display: block;
+}
+/*权限设置二级菜单*/
+.qx-second{
+	list-style-type: none;
+	width: 100%;
+	padding-left: 22px;
+}
+.qx-second>li>a{
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+	padding-right: 30px;
+	margin-left: 0;
+	padding-left: 40px;
+	border-bottom: 1px solid #EAEAEA;
+	text-decoration: none;
+	font-size: 12px;	
+	color: #595959;
+}
+.qx-second>li>a:hover{
+	background: #FFF;
+}
+/*基础设置*/
+.qx-second i.second-icon{
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	display: block;
+}
+.qx-second a>label>input{
+	display: none;
+}
+/*可见--不可见样式*/
+.visible-icon{
+	display: block;
+	background: url(../img/icon/purview-setting/right-icon/xuanze.png);
+}
+.visible-no-icon{
+	display: block;
+	background: url(../img/icon/purview-setting/right-icon/xuanzekuang.png);
+}
+.qx-second label.pull-right{
+	margin-left: 60px;
+}
+/*区域划分*/
+.qx-second i.qxhf-icon{
+	background: url(../img/icon/purview-setting/right-icon/jbsz/ywgl_qyhf.png);
+}
+/*组织管理*/
+.qx-second i.zzjg-icon{
+	background: url(../img/icon/purview-setting/right-icon/jbsz/ywgl_zzjg.png);
+}
+/*权限设置*/
+.qx-second i.qxse-icon{
+	background: url(../img/icon/purview-setting/right-icon/jbsz/ywgl_qxsz.png);
+}
+/*账号管理*/
+.qx-second i.zhgl-icon{
+	background: url(../img/icon/purview-setting/right-icon/jbsz/ywgl_zhgl.png);
+}
+.qx-second-box i.cpxlmk-icon{
+	position: absolute;
+	left:0px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../img/icon/purview-setting/right-icon/cpxl.png) no-repeat;
+}
+
+
+
+
 
