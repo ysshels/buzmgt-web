@@ -71,6 +71,7 @@
 }
 .role-list .nav-tabs{
 	height: 100%;
+	margin-bottom: 20px;
 }
 .role-list >.nav{
 	border-bottom: none;
@@ -91,11 +92,13 @@
 .role-list >.nav>li>a:hover{
     border: 1px solid transparent;
     background: #FAFAFA;
+	outline: none;
 	border-right: 1px solid rgb(221, 221, 221);
 }
 .role-list .nav-tabs > li.active > a {
-	z-index: 9999;
+	/*z-index: 9999;*/
 	color: #568095;
+	outline: none;
     background-color: #FAFAFA;
     margin-right: -5px;
     border: 1px solid #ddd;
@@ -134,7 +137,7 @@
 }
 .icon{
 	position: relative;
-	z-index: 10000;
+	z-index: 100;
 	width: 20px;
 	height: 20px;
 	margin-left: 10px;
@@ -179,9 +182,11 @@
 }
 .icon-add{
 	display: inline-block;
+	margin-right: 8px;
 	width: 8px;
 	height: 8px;
 	background: url(../img/icon/purview-setting/left-icon/add.png);
+	
 }
 .scroller {
     margin: 0 !important;
@@ -317,8 +322,28 @@ li.active .qx-second{
 	height: 20px;
 	background: url(../img/icon/purview-setting/right-icon/cpxl.png) no-repeat;
 }
-
-
-
-
-
+/*创建角色----弹出窗add-role*/
+.add-role .modal-content{
+	border: 1px solid #D9544F;
+}
+.add-role .modal-header{
+	position: relative;
+	height: 39px;
+	background: #D9544F;
+	color: #FFF;
+	padding: 10px ;
+}
+@media (min-width: 970px) {
+	.add-role .modal-body{
+		padding-right: 50px;
+	}
+}
+.add-role .modal-title{
+	font-size: 14px;
+	font-weight: bold;
+}
+.add-role .modal-body{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	color: #727272;
+}

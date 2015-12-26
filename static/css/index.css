@@ -9,7 +9,11 @@ body {
 	padding-top: 50px;
 	font-family: simsun;
 }
-
+a:hover,a:focus,button,button:hover;button:focus{
+	outline: none;
+	font-style: normal;
+	
+}
 
 /*
  * Global add-ons
