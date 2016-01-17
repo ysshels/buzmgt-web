@@ -89,7 +89,7 @@
 							<li class=""><a class="console" href="#">控制台 <span class="sr-only"></span></a></li>
 							<li class="" role="presentation">
 								<!--二级菜单添加menu-second-box-->
-								<a class="menu-second-box management" href="" data-toggle="dropdown">业务管理<span class="pull-right down-icon"></span></a>
+								<a class="menu-second-box management" href="JavaScript:;" >业务管理<span class="pull-right down-icon"></span></a>
 								<ul class="menu-second">
 									<li class=""><a class="team">团队成员</a></li>
 									<li><a class="street-settings">扫街设置</a></li>
@@ -131,17 +131,14 @@
 						</ul>
 					</div>
 					<script type="text/javascript">
-							$('#left-menu a').click(function(){
-		$(this).parent('li').addClass('active');
+							$('.menu a,.menu li.active a').click(function(){
+//		$(this).parent('li').siblings().removeClass('active');
+		$(this).parent('li').toggleClass('active'); 		
 		$(this).parent('li').siblings().removeClass('active');
-		$(this).parent('li').siblings().find('.menu-second').hide();
 	})
-							$('a.menu-second-box').click(function(){
-								$(this).siblings('ul.menu-second').show();
-							})
 					</script>
 					<div id="main" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-						<h4 class="page-header">万年历</h1>
+						<h4 class="page-header">万年历</h4>
 							
 								<!-- CALENDAR -->
 						<div class="row">
