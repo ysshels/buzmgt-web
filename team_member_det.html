@@ -11,6 +11,7 @@
 		<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="static/css/common.css" />
 		<link rel="stylesheet" type="text/css" href="static/yw-team-member/team-member.css" />
+		<link rel="stylesheet" type="text/css" href="static/yw-team-member/ywmember.css" />
 		<script src="static/js/jquery/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
@@ -178,22 +179,64 @@
 				<!--team-map-->
 				<div class="col-md-3">
 					<!--box-->
-					<div class="member-district box border gray">
+					<!--不同阶段颜色不同1：pink 2：yellow 3:violet 4:-->
+					<div class="ywmamber-msg box border cyan">
 						<!--title-->
 						<div class="box-title">
-							<i class="icon icon-district"></i>区域
+							<i class="icon icon-time"></i>考核中
 						</div>
 						<div class="box-body">
-							<!--地图-->
-							<img width="100%" src="static/img/background/team-map.png" />
-							<!--/地图-->
-							<!--组织结构-->
-							<div class="structure col-xs-12">
-								<i class="icon icon-structure"></i> 组织结构
+							<!--ywmamber-body-->
+							<div class="ywmamber-body">
+								<img width="80" src="static/img/background/user-head.png" alt="..." class="img-circle">
+								<div class="msg-text">
+									<h4>易小星</h4>
+									<p>ID: A236743252</p>
+									<p>电话: 12547346455</p>
+								</div>
 							</div>
-							<!--tree view-->
-							<div id="tree3" class="tree"></div>
-							<!--/组织结构-->
+							<!--/ywmamber-body-->
+							<div class="stage">
+								<span class="">第一阶段:60%      </span>
+							</div>
+							<div class="progress progress-sm">
+								<div style="width: 60%;" class="progress-bar bar-stage"></div>
+							</div>
+							<div class="operation">
+								<a href="javascript:;" class="">考核设置</a>
+								<a href="javascript:;">辞退</a>
+								<a href="javascript:;" class="pull-right">查看</a>
+							</div>
+							<div class="yw-text">
+								入职时间:<span> 2015.09.21</span><br />
+								负责区域:<span>山东省滨州市邹平县</span>
+							</div>
+							<!--拜访任务-->
+							<div class="visit">
+								<button class="col-xs-12 btn btn-visit" href="javascript:;"><i class="icon icon-add"></i>拜访</button>
+							</div>
+							<!--拜访任务-->
+							<!--操作-->
+							<div class="operation">
+								<a href="javascript:;" class="">账户设置</a>
+								<a href="javascript:;">冻结账户</a>
+							</div>
+							<!--操作-->
+							<!--虚线-->
+							<div class="hr"></div>
+							<!--虚线-->
+							<!--业务外部链接-->
+							<div class="yw-link">
+								<a class="link-oper" href="javascript:;"><i class="icon icon-user"></i>个人资料</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-income"></i>收益</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-task"></i>任务</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-log"></i>日志</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-footprint"></i>足迹</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-signin"></i>签收记录</a>
+								<a class="link-oper" href="javascript:;"><i class="icon icon-saojie"></i>扫街记录</a>
+							</div>
+
+
 						</div>
 					</div>
 					<!--/team-map-->
