@@ -1,5 +1,6 @@
 body{
 	background: #fafafa;
+	font-family: simsun;
 }
 /* <main>*/
 .main {
@@ -252,9 +253,15 @@ a,a:hover,a:focus,button,button:hover,button:focus,button:active{
 .text-primary{
 	color: #3894C7;
 }
-
-
-
+/*新图标实现方式*/
+.ico{
+	padding: 2px 18px 18px 2px;
+}
+/**/
+.kaohe-week .input-group-addon{
+	padding-left: 6px;
+	padding-right: 6px;
+}
 
 
 
