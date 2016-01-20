@@ -23,7 +23,18 @@
 	bottom: 0;
 	right: 0;
 }
-
+/*审核通过按钮*/
+.btn-approve,
+.btn-approve:hover,
+.btn-approve:focus{
+	background: #3BA2DC;
+	border-color: #3285B7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
 /*标题按钮*/
 .title-btn{
 	display: inline-block;
@@ -58,18 +69,7 @@
 	width: 100%;
 	height: auto;
 }
-/*审核通过按钮*/
-.btn-approve,
-.btn-approve:hover,
-.btn-approve:focus{
-	background: #3BA2DC;
-	border-color: #3285B7;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	color: #FFF;
-	font-size: 14px;
-	font-weight: bold;
-}
+
 /*列表*/
 .saojie-list{
 	display: none;
