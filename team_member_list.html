@@ -11,6 +11,7 @@
 		<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="static/css/common.css" />
 		<link rel="stylesheet" type="text/css" href="static/yw-team-member/team-member.css" />
+		<link rel="stylesheet" type="text/css" href="static/yw-team-member/team-memberAdd.css" />
 		<script src="static/js/jquery/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
@@ -38,7 +39,7 @@
 						<!--/区域选择按钮-->
 					</div>
 					<div class="col-sm-6">
-						<button class="btn btn-warning member-add-btn" type="button"> <i class="icon icon-add"></i>添加成员</button>
+						<a class="btn btn-warning member-add-btn" href="team_member_add.html"> <i class="icon icon-add"></i>添加成员</a>
 						<small class="header-text">共<span class="text-red">203</span>位成员</small>
 						<small class="header-text">今日新增<span class="text-red"> 0 +</span></small>
 					</div>
@@ -86,9 +87,51 @@
 								<div class="tab-pane fade in active" id="box_tab1">
 									<!--box-list-->
 									<div class="box-list">
-										<ul>
-											<li></li>
-										</ul>
+										<!--table-->
+										<!-- 列表内容 -->
+										<div class="ibox">
+											<div class="ibox-content">
+												<div class="project-list table-responsive">
+													<table class="table table-hover">
+														<tbody id="salemanlist">
+															<tr>
+																<td class="project-people">
+																	<a href=""><img alt="image" class="img-circle" src="../static/img/team-member/a.jpg"></a>
+																</td>
+																<td class="project-title"><a href="team_member_det.html"><strong>${salesman.truename}</strong>(${salesman.user.organization.name})</a>
+																	<br /> <span>${salesman.region.name}</span></td>
+																<td class="project-title"><span class="l-h">大桥镇：<strong
+																		class="shop-num">20家</strong></span>
+																	<br /> <span>小桥镇：<strong
+																		class="shop-num-d">10家</strong></span></td>
+																<td class="project-completion col-md-5 col-sm-2">
+																	<span class="completion-ing">当前进度： 88%</span>
+																	<span class="status-ing saojie-status-on">${salesman.salesmanStatus.name}</span>
+																	<div class="progress progress-mini">
+																		<div style="width: 88%;" class="progress-bar saojie-bar-on"></div>
+																	</div>
+																</td>
+																<td class="project-actions"><a href="kaohe_det.html" class="btn btn-white btn-sm "><span
+																		class="folder"></span> 查看 </a>
+																	<!-- Single button -->
+																	<div class="btn-group sr-only">
+																		<button type="button" class="btn btn-white btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																			<i class="icon-edit"></i> 编辑 <span class="caret"></span>
+																		</button>
+																		<ul class="dropdown-menu saojie-edit">
+																			<li><a href="#">扫街设置</a></li>
+																			<li role="separator" class="divider"></li>
+																			<li><a href="#">冻结账户</a></li>
+																		</ul>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+										<!--end table-->
 									</div>
 									<!--/box-list-->
 								</div>

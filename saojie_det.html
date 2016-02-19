@@ -9,6 +9,7 @@
 		<title>扫街明细</title>
 		<!-- Bootstrap -->
 		<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="static/bootstrap/css/bootstrap-select.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="static/css/common.css" />
 		<link rel="stylesheet" type="text/css" href="static/saojie/saojie-det.css" />
 		<link rel="stylesheet" type="text/css" href="static/yw-team-member/ywmember.css" />
@@ -31,6 +32,14 @@
 						<!--title-->
 						<div class="box-title">
 							<!--区域选择按钮-->
+							<div class="form-group">
+								<select id="basic2" class="selectpicker show-tick form-control" name="" data-live-search="true" >
+									<option>chicken</option>
+									<option>turkey</option>
+									<option disabled>duck</option>
+									<option>goose</option>
+								</select>
+							</div>
 							<div class="btn-group btn-group-xs">
 								<button type="button" class="btn btn-default ">全部区域</button>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -138,13 +147,14 @@
 								<div style="width: 60%;" class="progress-bar bar-stage"></div>
 							</div>
 							<div class="operation">
-								<a href="javascript:;" class="">考核设置</a>
+								<a href="saojie_upd.html" class="">考核设置</a>
 								<a href="javascript:;">辞退</a>
-								<a href="javascript:;" class="pull-right">查看</a>
+								<a href="kaohe_det.html" class="pull-right">查看</a>
 							</div>
 							<div class="yw-text">
-								入职时间:<span> 2015.09.21</span><br />
-								负责区域:<span>山东省滨州市邹平县</span>
+								入职时间:<span> 2015.09.21</span>
+								<br /> 负责区域:
+								<span>山东省滨州市邹平县</span>
 							</div>
 							<!--拜访任务-->
 							<div class="visit">
@@ -171,7 +181,6 @@
 								<a class="link-oper" href="javascript:;"><i class="icon icon-saojie"></i>扫街记录</a>
 							</div>
 
-
 						</div>
 					</div>
 					<!--/team-map-->
@@ -189,7 +198,14 @@
 			<script src="static/js/jquery/jquery-1.11.3.min.js"></script>
 			<!-- Include all compiled plugins (below), or include individual files as needed -->
 			<script src="static/bootstrap/js/bootstrap.min.js"></script>
+			<script src="static/bootstrap/js/bootstrap-select.min.js"></script>
 			<script src="static/saojie/saojie-det.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				$('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+			</script>
 	</body>
 
 </html>

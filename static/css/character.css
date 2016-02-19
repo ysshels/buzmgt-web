@@ -1,7 +1,6 @@
 /*-firefox--虚线边框*/
 .btn ,.btn:hover.btn:focus,a,a:hover,a:focus{
 	outline: none;
-	border-style: none;
 }
 .role-check-icon{
 	display: inline-block;
