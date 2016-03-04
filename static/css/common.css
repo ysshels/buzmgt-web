@@ -429,9 +429,28 @@ a.table-export:hover, a.table-export:focus {
 	padding-bottom: 20px;
 	color: #727272;
 }
+.search-date {
+	display: inline-block;
+	width:10%;
+	min-width: 100px;
+	position: relative;
+	top: 12px;
+}
+.search-date>input{
+	display: inline-block; 
+	width: auto;
+	height: 30px;
+}
+/*导出*/
+.link-posit{
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+}
 
-
-
-
+.marg-t-10{
+	margin-top: 10px;
+}
 
 
