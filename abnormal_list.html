@@ -44,7 +44,7 @@
 						<!--box-body-->
 						<div class="box-body">
 							<div class="marg-t text-time">
-								<span class="text-strong">请选择时间：</span>
+								<span class="text-strong chang-time">请选择时间：</span>
 								<div class="search-date">
 									<div class="input-group input-group-sm">
 										<span class="input-group-addon " id="basic-addon1"><i class=" glyphicon glyphicon-remove glyphicon-calendar"></i></span>
@@ -71,58 +71,133 @@
 									<a class="table-export" href="javascript:void(0);">导出excel</a>
 								</div>
 							</div>
-							<!--table-box-->
-							<div class="table-abnormal-list table-overflow">
-								<table class="table table-hover new-table abnormal-table">
-									<thead>
-										<tr>
-											<th>业务名称</th>
-											<th>订单号</th>
-											<th>地址</th>
-											<th>截止时间</th>
-											<th>状态</th>
-											<th>操作</th>
-										</tr>
-									</thead>
-									<tr>
-										<td class="text-strong"><span class="text-bule">【拜访】</span>小米手机专卖店</td>
-										<td>吴磊</td>
-										<td>山东省滨州市邹平县大桥镇223号</td>
-										<td>2016.03.12 18:20</td>
-										<td class="text-strong"><span class="text-state-ok">已完成</span>
-										</td>
-										<td>
-											<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
-										</td>
-									</tr>
-									<tr>
-										<td class="text-strong"><span class="text-bule">【拜访】</span>小米手机专卖店</td>
-										<td>吴磊</td>
-										<td>山东省滨州市邹平县大桥镇223号</td>
-										<td>2016.03.12 18:20</td>
-										<td class="text-strong">
-											<span class="text-state-no">未完成</span>
-										</td>
-										<td>
-											<a class="btn btn-red btn-sm" href="javascrip:;">警告</a>
-											<a class="btn btn-yellow btn-sm" href="javascrip:;">扣罚</a>
-										</td>
-									</tr>
-									<tr>
-										<td class="text-strong"><span class="text-bule">【拜访】</span>小米手机专卖店</td>
-										<td>吴磊</td>
-										<td>山东省滨州市邹平县大桥镇223号</td>
-										<td>2016.03.12 18:20</td>
-										<td class="text-strong">
-											<span class="text-state-no">未完成</span>
-										</td>
-										<td>
-											<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
-										</td>
-									</tr>
-								</table>
+							<!--列表内容-->
+							<div class="tab-content">
+								<!--业务揽收异常-->
+								<div class="tab-pane fade in active" id="box_tab1">
+									<!--table-box-->
+									<div class="table-abnormal-list table-overflow">
+										<table class="table table-hover new-table abnormal-table">
+											<thead>
+												<tr>
+													<th>业务名称</th>
+													<th>订单号</th>
+													<th>签收地址</th>
+													<th>签收时间</th>
+													<th>操作</th>
+												</tr>
+											</thead>
+											<tr>
+												<td class="">
+													<img width="50" height="50" src="static/img/abnormal/user-head.png" class="img-circle" />
+													<div class="business-name">
+														<span class="text-strong">易小川</span>(区域经理)
+														<br /> 小米手机专卖店
+													</div>
+												</td>
+												<td>201603041256</td>
+												<td>山东省滨州市邹平县大桥镇223号</td>
+												<td><span class="icon-tag-yc">异常</span>2016.03.12 18:20</td>
+												<td>
+													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="">
+													<img width="50" height="50" src="static/img/abnormal/user-head.png" class="img-circle" />
+													<div class="business-name">
+														<span class="text-strong">易小川</span>(区域经理)
+														<br /> 小米手机专卖店
+													</div>
+												</td>
+												<td>201603041256</td>
+												<td>山东省滨州市邹平县大桥镇223号</td>
+												<td><span class="icon-tag-yc">异常</span>2016.03.12 18:20</td>
+												<td>
+													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="">
+													<img width="50" height="50" src="static/img/abnormal/user-head.png" class="img-circle" />
+													<div class="business-name">
+														<span class="text-strong">易小川</span>(区域经理)
+														<br /> 小米手机专卖店
+													</div>
+												</td>
+												<td>201603041256</td>
+												<td>山东省滨州市邹平县大桥镇223号</td>
+												<td><span class="icon-tag-yc">异常</span>2016.03.12 18:20</td>
+												<td>
+													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
+												</td>
+											</tr>
+										</table>
+									</div>
+									<!--table-box-->
+								</div>
+								<!--业务揽收异常-->
+								
+								<!--客户签收异常-->
+								<div class="tab-pane fade" id="box_tab2">
+									<!--table-box-->
+									<div class="table-abnormal-list table-overflow">
+										<table class="table table-hover new-table abnormal-table">
+											<thead>
+												<tr>
+													<th>业务名称</th>
+													<th>订单号</th>
+													<th>签收地址</th>
+													<th>签收时间</th>
+													<th>送货时间</th>
+													<th>操作</th>
+												</tr>
+											</thead>
+											<tr>
+												<td class="">
+													<img width="50" height="50" src="static/img/abnormal/user-head.png" class="img-circle" />
+													<div class="business-name">
+														<span class="text-strong">易小川</span>(区域经理)
+														<br /> 小米手机专卖店
+													</div>
+												</td>
+												<td>201603041256</td>
+												<td>
+													<span class="icon-tag-yc">异常</span>
+													山东省滨州市邹平县大桥镇223号
+												</td>
+												<td>2016.03.12 18:20</td>
+												<td>6小时20分钟</td>
+												<td>
+													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="">
+													<img width="50" height="50" src="static/img/abnormal/user-head.png" class="img-circle" />
+													<div class="business-name">
+														<span class="text-strong">易小川</span>(区域经理)
+														<br /> 小米手机专卖店
+													</div>
+												</td>
+												<td>201603041256</td>
+												<td>
+													<span class="icon-tag-yc">异常</span>
+													山东省滨州市邹平县大桥镇223号
+												</td>
+												<td>2016.03.12 18:20</td>
+												<td>6小时20分钟</td>
+												<td>
+													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
+												</td>
+											</tr>
+										</table>
+									</div>
+									<!--table-box-->
+								</div>
+								<!--客户签收异常-->
 							</div>
-							<!--table-box-->
+							<!--列表内容-->
 						</div>
 						<!--box-body-->
 					</div>
