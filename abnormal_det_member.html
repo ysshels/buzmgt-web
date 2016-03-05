@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-		<title>签收记录</title>
+		<title>业务揽收</title>
 		<!-- Bootstrap -->
 		<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="static/bootstrap/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 	<body>
 		<div class="content main">
 			<h4 class="page-header ">
-				<i class="ico icon-abnormal_record"></i>签收记录
+				<i class="ico icon-abnormal_record"></i>业务揽收
 			</h4>
 			<div class="row">
 				<div class="col-md-9">
@@ -29,125 +29,46 @@
 					<div class="abnormal-body box border blue">
 						<!--title-->
 						<div class="box-title">
-							<!--菜单栏-->
-							<ul class="nav nav-tabs">
-								<li class="active"><a href="#box_tab1" data-toggle="tab"><span class="">业务揽收</span></a></li>
-								<li><a href="#box_tab2" data-toggle="tab"><span class="">客户签收</span></a></li>
-							</ul>
-							<!--/菜单栏-->
+							<i class="ico icon-shop-name"></i>小米手机专卖店
 						</div>
 						<!--title-->
 						<!--box-body-->
 						<div class="box-body">
-							<div class="marg-t text-time">
-								<span class="text-strong chang-time">请选择时间：</span>
-								<div class="search-date">
-									<div class="input-group input-group-sm">
-										<span class="input-group-addon " id="basic-addon1"><i class=" glyphicon glyphicon-remove glyphicon-calendar"></i></span>
-										<input type="text" class="form-control form_datetime input-sm" placeholder="开始日期" readonly="readonly">
-									</div>
-								</div> --
-								<div class="search-date">
-									<div class="input-group input-group-sm">
-										<span class="input-group-addon " id="basic-addon1"><i class=" glyphicon glyphicon-remove glyphicon-calendar"></i></span>
-										<input type="text" class="form-control form_datetime input-sm" placeholder="结束日期" readonly="readonly">
-									</div>
-								</div>
-								<!--考核开始时间-->
-								<button class="btn btn-blue btn-sm" onclick="goSearch('${salesman.id}','${assess.id}');">
-									检索
-								</button>
-								<!---->
-								<div class="abnormal-details">
-									<span>共 <span class="text-bule">2580</span> 单</span>
-									<span>客户签收 <span class="text-bule">2500</span> 单</span>
-									<span>拒收  <span class="text-bule">80</span> 单</span>
-								</div>
-								<div class="link-posit pull-right">
-									<a class="table-export" href="javascript:void(0);">导出excel</a>
-								</div>
+							<div class="text-hor">
+								<label>订单号：</label>
+								<p>2016030535423</p>
 							</div>
-							<!--列表内容-->
-							<div class="tab-content">
-								<!--业务揽收异常-->
-								<div class="tab-pane fade in active" id="box_tab1">
-									<!--table-box-->
-									<div class="table-abnormal-list table-overflow">
-										<table class="table table-hover new-table abnormal-record-table">
-											<thead>
-												<tr>
-													<th>店铺名称</th>
-													<th>订单号</th>
-													<th>签收地点</th>
-													<th>签收时间</th>
-													<th>状态</th>
-													<th>操作</th>
-												</tr>
-											</thead>
-											<tr>
-												<td class="text-strong">小米手机专卖店</td>
-												<td>201603041256</td>
-												<td>山东省滨州市邹平县大桥镇223号</td>
-												<td>
-													<span class="icon-tag-zc">正常</span>
-													<span class="icon-tag-yc">异常</span>2016.03.12 18:20
-												</td>
-												<td class="text-strong">
-													<span class="status-over">已签收</span>
-													<span class="status-not">未签收</span>
-												</td>
-												<td>
-													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
-													<a class="btn btn-yellow btn-sm" href="javascrip:;">扣罚</a>
-												</td>
-											</tr>
-										</table>
-									</div>
-									<!--table-box-->
-								</div>
-								<!--业务揽收异常-->
-
-								<!--客户签收异常-->
-								<div class="tab-pane fade" id="box_tab2">
-									<!--table-box-->
-									<div class="table-abnormal-list table-overflow">
-										<table class="table table-hover new-table abnormal-record-table">
-											<thead>
-												<tr>
-													<th>店铺名称</th>
-													<th>订单号</th>
-													<th>签收地点</th>
-													<th>送货时效</th>
-													<th>支付方式</th>
-													<th>签收时间</th>
-													<th>状态</th>
-													<th>操作</th>
-												</tr>
-											</thead>
-											<tr>
-												<td class="text-strong">小米手机专卖店</td>
-												<td>201603041256</td>
-												<td>
-													<span class="icon-tag-zc">正常</span>
-													<span class="icon-tag-yc">异常</span>山东省滨州市邹平县大桥镇223号</td>
-												<td>6小时40分钟</td>
-												<td>收现金</td>
-												<td>2016.03.12 18:20</td>
-												<td class="text-strong">
-													<span class="status-over">已签收</span>
-													<span class="status-not">未签收</span>
-												</td>
-												<td>
-													<a class="btn btn-blue btn-sm" href="javascrip:;">查看</a>
-												</td>
-											</tr>
-										</table>
-									</div>
-									<!--table-box-->
-								</div>
-								<!--客户签收异常-->
+							<div class="text-hor">
+								<label>是否揽收：</label>
+								<p><span class="accepted">已揽收</span></p>
 							</div>
-							<!--列表内容-->
+							<div class="text-hor">
+								<label>签收坐标：</label>
+								<p>山东省济南市天桥区二环东路250号</p>
+							</div>
+							<div class="text-hor">
+								<label>签收坐标：</label>
+								<p>2016.03.15 10:50
+									<span class="icon-tag-zc">正常</span>
+									<span class="icon-tag-yc">异常</span>
+								</p>
+							</div>
+							<div class="text-hor">
+								<label>付款方式：</label>
+								<p>收现金</p>
+							</div>
+							<div class="hr"></div>
+							<div class="text-hor">
+								<label>轨迹查看：</label>
+							</div>
+							<div class="text-hor">
+								<label></label>
+								<!--地图位置-->
+								<div class="map-box">
+									<img width="100%" src="static/img/abnormal/map-img.png"/>
+								</div>
+								<!--地图位置-->
+							</div>
 						</div>
 						<!--box-body-->
 					</div>
