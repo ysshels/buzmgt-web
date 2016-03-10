@@ -4,11 +4,9 @@
 .icon-order-detail{
 	background: url(../img/orderDetail/ddmx.png) no-repeat;
 }
-.row{
-	border-top:7px solid #1c96dc;
-}
 .order-box{
 	margin:0 -15px;
+	border-top:7px solid #1c96dc;
 	background-color: #fff;
 	-webkit-text-size-adjust:none;
 }
