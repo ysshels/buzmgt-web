@@ -96,8 +96,13 @@
   border-bottom: 1px solid #3BA2DC;
 }
 
-
-
+.icon-user{
+  background: url("../img/addcode/xm.png");
+  margin-right: 0px;
+}
+.input-h{
+  height: 36px;
+}
 
 
 
