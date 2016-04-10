@@ -75,6 +75,12 @@
 .icon-abnormal_record{
   background: url(../img/abnormal/qsjl.png) no-repeat;
 }
+
+
+/*油补记录 oil_record*/
+.icon-oil_record{
+  background: url(../img/visit/bfjl.png) no-repeat;
+}
 /*业务外部链接*/
 .yw-link{
   width: 100%;

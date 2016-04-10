@@ -1,0 +1,45 @@
+/*日期位置*/
+.date-wz{
+    width:20%;
+    padding-bottom:8px ;
+    position: relative;
+}
+
+/*油补红色的字体*/
+.text-right-red {
+    text-align: right;
+    color: #FF4847;
+    font-weight: 800;
+}
+
+.text-wz{
+   position:absolute;
+    top: 3px;
+    right: -50px;;
+    height: 0px;
+
+}
+
+.table-wz{
+    padding-top: 10px;
+}
+
+/*文字异常*/
+
+.text-abnormal{
+    color:#fbd051;
+    font-weight: 800;
+}
+/*翻页*/
+.page-turn{
+    display:table-cell;
+    width:1700px;
+    height:500px;
+    vertical-align:middle;
+    text-align:center;
+    *float:left;
+    *font-family:simsun;
+    *font-size:200px;
+    *line-height:1;
+
+}
