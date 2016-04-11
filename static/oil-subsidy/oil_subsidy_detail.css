@@ -32,19 +32,14 @@
     content:')';
     color:#000;
 }
-.oil-info-wrapper{
-    float:left;
-    margin:10px 0;
-    padding:5px 0 5px 15px;
-    background-color:#1087cb;
-    color:#fff;
-}
+
 .oil-info{
     float:left;
-    margin-right:20px;
+    margin:10px 65px 10px 0;
     font-size:14px;
     font-weight:bold;
     line-height:30px;
+    color:#1087cb;
 }
 .clearfix:before,
 .clearfix:after{
@@ -58,7 +53,7 @@
     *zoom:1;
 }
 .link-posit{
-    margin-top:40px;
+    margin-top:30px;
 }
 .ico{
     padding:2px 22px 10px 2px;
@@ -99,18 +94,14 @@
     color:#3893c7;
 }
 h2{
-    float:left;
     margin:0;
-    padding:10px 15px;
+    padding:0;
     font-size:14px;
     color:#5c5c5c;
     font-weight:bold;
-    background-color:#1087cb;
-    color:#fff;
 }
 .find-up{
     float:right;
-    margin-top:30px;
     font-size:12px;
     color:#288dc6;
 }
