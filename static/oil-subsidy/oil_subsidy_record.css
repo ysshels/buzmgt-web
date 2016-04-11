@@ -19,6 +19,7 @@
 .location:before{
     display:inline-block;
     content:'>';
+    padding-right:5px;
 }
 .abnormal-state{
     color:#ff9804;
@@ -74,3 +75,12 @@
     -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
 }
+.icon-visit{
+    top:5px;
+    background:url(../img/icon/kaohe/kaohexiangqing.png) no-repeat;
+}
+.icon-oil-record{
+    top:5px;
+    background:url(../img/icon/oil-subsidy/oil.png) no-repeat;
+}
+
