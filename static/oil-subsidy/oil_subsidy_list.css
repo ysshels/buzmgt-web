@@ -2,7 +2,11 @@
     background:url(../img/icon/left-mean/oil.jpg) no-repeat;
 }
 .icon-ratio{
-    background:url(../img/icon/left-mean/jcsz2.png) no-repeat;
+    display: inline-block;
+    margin-right:3px;
+    padding:7px;
+    background:url(../img/icon/oil-subsidy/setting.png) no-repeat;
+    vertical-align: middle;
 }
 .acu-km{
     color:#3893c7;
@@ -32,4 +36,12 @@
     display: inline-block;
     content:')';
     color:#000;
+}
+.btn-setting{
+    margin-left:5px;
+    padding:3px;
+    background-color:#fbfbfb;
+    color:#8c8c8c;
+    border:1px solid #eee;
+    font-size:12px;
 }
