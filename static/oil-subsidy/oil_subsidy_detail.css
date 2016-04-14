@@ -58,29 +58,21 @@
 .ico{
     padding:2px 22px 10px 2px;
 }
-.ico-begin{
-    background:url(../img/icon/oil-subsidy/order_begin.jpg) no-repeat;
+.order{
+    display: inline-block;
+    width:21px;
+    height:21px;
+    line-height: 21px;
+    color:#fff;
+    text-align: center;
+    background-color: #2185fd;
+    font-family: "Microsoft Yahei";
 }
-.ico-order1{
-    background:url(../img/icon/oil-subsidy/order_01.jpg) no-repeat;
+.begin{
+    background-color:#03be0d;
 }
-.ico-order2{
-    background:url(../img/icon/oil-subsidy/order_02.jpg) no-repeat;
-}
-.ico-order3{
-    background:url(../img/icon/oil-subsidy/order_03.jpg) no-repeat;
-}
-.ico-order4{
-    background:url(../img/icon/oil-subsidy/order_04.jpg) no-repeat;
-}
-.ico-order5{
-    background:url(../img/icon/oil-subsidy/order_05.jpg) no-repeat;
-}
-.ico-order6{
-    background:url(../img/icon/oil-subsidy/order_06.jpg) no-repeat;
-}
-.ico-end{
-    background:url(../img/icon/oil-subsidy/order_end.jpg) no-repeat;
+.end{
+    background-color: #fe5244;
 }
 .task:before{
     display:inline-block;
