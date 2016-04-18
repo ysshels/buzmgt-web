@@ -26,204 +26,168 @@
 
     <div>
         <!-- Nav tabs -->
-        <h4>公里系数设置：</h4>
+        <h4 class="text-hd">公里系数设置：</h4>
         <!-- Tab panes -->
         <!--全部--->
         <!--公里系数设置-->
-        <div class="tab-content-main">
-            <div role="tabpanel" class="tab-pane active" id="">
-                <div class="table-responsive">
-                    <!--公里系数表头-->
-                    <div class="text-tx">
-                        <span class="text-strong">公里数系数：</span>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                1.5 <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">1.0</a></li>
-                                <li><a href="#">2.0</a></li>
-                                <li><a href="#">2.5</a></li>
-                            </ul>
+        <div class="table-bordered">
+            <div class="tab-content-main">
+                <div role="tabpanel" class="tab-pane active" id="">
+                    <div class="table-responsive">
+                        <!--公里系数表头-->
+                        <div class="text-tx row-d">
+                            <span class="text-strong">公里数系数：</span>
+                            <select>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                            </select>
+                            <span class="text-strong">倍</span>
+                            <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
                         </div>
-                        <span class="text-strong">倍</span>
-                        <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
-                    </div>
 
-                    <!--设置公里系数表-->
-                    <div class="bs-example" data-example-id="bordered-table">
-                        <table class="table table-bordered">
-                            <tbody class="text-wz">
-                            <tr class="row-h">
-                                <th scope="row">
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    <span class="text-wz"> 山东省滨州市邹县</span>
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a>
-                                </th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        02
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        03
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        04
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                            </tr>
+                        <!--设置公里系数表-->
+                        <div class="bs-example" data-example-id="bordered-table">
+                            <table class="table table-bordered table-n">
+                                <tbody class="text-wz">
+                                <tr class="row-h">
+                                    <td scope="row">
+                                        <span class="label label-primary">01</span>
+                                        <span class="text-wz"> 山东省滨州市邹县</span>
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a>
+                                    </td>
+                                    <td>
+                                        <span class="label label-primary">02</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td>
+                                        <span class="label label-primary">03</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td>
+                                        <span class="label label-primary">04</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                </tr>
 
 
-                            <tr class="row-h">
-                                <th scope="row">
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        05
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
+                                <tr class="row-h">
+                                    <td scope="row">
+                                        <span class="label label-primary">05</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
 
-                            </tbody>
-                        </table>
-                    </div>
+                                </tbody>
+                            </table>
+                        </div>
 
-                    <div class="btu-zdy">
-                        <button class="btn btn-default" type="button" data-toggle="collapse"
-                                data-target="#zdyqy">
-                            自定义设置区域
-                        </button>
+                        <div class="btu-zdy">
+                            <button class="btn btn-default" type="button" data-toggle="collapse"
+                                    data-target="#zdyqy">
+                                自定义设置区域
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <h4>每公里油补金额设置：</h4>
+        <h4 class="text-hd">每公里油补金额设置：</h4>
         <!--每公里油补金额设置-->
         <div class="tab-content-main">
-            <div role="tabpanel" class="tab-pane active" id="all">
-                <div class="table-responsive">
-                    <!--公里系数表头-->
-                    <div class="text-tx">
-                        <span class="text-strong">公里数系数：</span>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                                    aria-haspopup="true" aria-expanded="false">
-                                1.5 <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">1.0</a></li>
-                                <li><a href="#">2.0</a></li>
-                                <li><a href="#">2.5</a></li>
-                            </ul>
+            <div class="table-bordered">
+                <div role="tabpanel" class="tab-pane active" id="all">
+                    <div class="table-responsive ">
+                        <!--公里系数表头-->
+                        <div class="text-tx row-d">
+                            <span class="text-strong">公里数系数：</span>
+                            <select>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                                <option>1.5</option>
+                            </select>
+                            <span class="text-strong">倍</span>
+                            <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
                         </div>
-                        <span class="text-strong">倍</span>
-                        <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
-                    </div>
 
-                    <!--设置公里系数表-->
-                    <div class="bs-example" data-example-id="bordered-table">
-                        <table class="table table-bordered ">
-                            <tbody>
-                            <tr class="row-h text-wz">
-                                <th scope="row">
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a>
-                                </th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <th>
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                            </tr>
+                        <!--设置公里系数表-->
+                        <div class="bs-example" data-example-id="bordered-table">
+                            <table class="table table-bordered table-n">
+                                <tbody>
+                                <tr class="row-h text-wz">
+                                    <td scope="row">
+                                        <span class="label label-primary">01</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a>
+                                    </td>
+                                    <td>
+                                        <span class="label label-primary">02</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td>
+                                        <span class="label label-primary">03</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td>
+                                        <span class="label label-primary">04</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                </tr>
 
-                            <tr class="row-h text-wz">
-                                <th scope="row">
-                                    <button type="button" id="myButton" data-loading-text="Loading..."
-                                            class="btn btn-primary btn-xs btn-move">
-                                        01
-                                    </button>
-                                    山东省滨州市邹县
-                                    <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
-                                    <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
-                                    <a href="" data-toggle="modal" data-target="">删除</a></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                                <tr class="row-h text-wz">
+                                    <td scope="row">
+                                        <span class="label label-primary">05</span>
+                                        山东省滨州市邹县
+                                        <a class="text-danger" href="" data-toggle="modal" data-target="">1.5倍</a>
+                                        <a class="" href="" data-toggle="modal" data-target="#changed">修改</a>
+                                        <a href="" data-toggle="modal" data-target="">删除</a></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-                    <div class="btu-zdy">
-                        <button class="btn btn-default" type="button" data-toggle="collapse"
-                                data-target="#zdyqy" aria-expanded="false"
-                                aria-controls="collapseExample">
-                            自定义设置区域
-                        </button>
+                        <div class="btu-zdy">
+                            <button class="btn btn-default" type="button" data-toggle="collapse"
+                                    data-target="#zdyqy" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                自定义设置区域
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="form-group">
-            <div class="col-sm-offset-4 col-sm-4">
-                <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
+            <div class="col-sm-offset-4 col-sm-4" style="margin-top: 20px">
+                <button type="submit" class="col-sm-12 btn btn-primary ">保存</button>
             </div>
         </div>
     </div>
@@ -247,38 +211,33 @@
                     <form class="form-horizontal">
                         <div class="form-group">
                             <label for="" class="col-sm-4 control-label">每公里油补公里系数：</label>
+
                             <div class="col-sm-7">
                                 <div class="input-group are-line">
                                     <span class="input-group-addon" id=""><i class="icon icon-kl"></i></span>
-                                    <input type="text" class="form-control input-h" placeholder="请选择公里系数"
-                                           aria-describedby="basic-addon1">
-                                    <div class="input-group-btn ">
-                                        <button type="button" class="btn btn-default dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                                                class="caret"></span></button>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                        </ul>
-                                    </div><!-- /btn-group -->
+                                    <select type="" class="form-control input-h"
+                                            aria-describedby="basic-addon1">
+                                        <option></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select><!-- /btn-group -->
                                 </div>
                             </div>
-                            <div class="col-sm-1 control-label">倍</div>
+                            <div class="col-sm-1 control-label"><span>元/km</span></div>
                         </div>
                         <div class="form-group">
-                            <div class="col-sm-offset-4 col-sm-4">
+                            <div class="col-sm-offset-4 col-sm-4 ">
                                 <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
                             </div>
                         </div>
                     </form>
-                    <div class="col-sm-offset-5 col-sm-7">
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- /alert html -->
 <!-- /alert html 自定义区域-->
@@ -298,22 +257,16 @@
                             <div class="col-sm-7">
                                 <div class="input-group are-line">
                                     <span class="input-group-addon" id=""><i class="icon icon-qy"></i></span>
-                                    <input type="text" class="form-control input-h" placeholder="请择选省-市-县"
-                                           aria-describedby="basic-addon1">
-                                    <div class="input-group-btn ">
-                                        <button type="button" class="btn btn-default dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                                                class="caret"></span></button>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                        </ul>
-                                    </div><!-- /btn-group -->
-                                </div>
+                                    <select type="" class="form-control input-h"
+                                            aria-describedby="basic-addon1">
+                                        <option></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select><!-- /btn-group -->
+                                </div><!-- /btn-group -->
                             </div>
-
                         </div>
 
 
@@ -322,35 +275,33 @@
                             <div class="col-sm-7">
                                 <div class="input-group are-line">
                                     <span class="input-group-addon" id=""><i class="icon icon-kl"></i></span>
-                                    <input type="text" class="form-control input-h" placeholder="请选择公里系数"
-                                           aria-describedby="basic-addon1">
-                                    <div class="input-group-btn ">
-                                        <button type="button" class="btn btn-default dropdown-toggle"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span
-                                                class="caret"></span></button>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#">4</a></li>
-                                        </ul>
-                                    </div><!-- /btn-group -->
-                                </div>
+                                    <select type="" class="form-control input-h"
+                                            aria-describedby="basic-addon1">
+                                        <option></option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select><!-- /btn-group -->
+
+                                </div><!-- /btn-group -->
                             </div>
                             <div class="col-sm-1 control-label">倍</div>
                         </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-4 col-sm-4">
-                                <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
-                            </div>
-                        </div>
-                    </form>
 
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-4">
+                        <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
                     </div>
                 </div>
+                </form>
+
             </div>
         </div>
     </div>
+</div>
+</div>
 </div>
 
 <!-- /alert html -->
