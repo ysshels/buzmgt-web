@@ -431,6 +431,19 @@ button:active {
   background: url(../img/saojie/saojie-add.png) no-repeat;
 }
 
+.icon-oil-detail{
+    background:url(../img/icon/oil-subsidy/oil-record.png) no-repeat;
+    top:5px;
+}
+
+.icon-visit{
+    top:5px;
+    background:url(../img/icon/kaohe/kaohexiangqing.png) no-repeat;
+}
+.icon-oil-record{
+    top:5px;
+    background:url(../img/icon/oil-subsidy/oil.png) no-repeat;
+}
 
 /*添加成员按钮*/
 
