@@ -13,9 +13,24 @@
   margin-right: 10px;
   background: url(../img/abnormal/tag-zc.png) no-repeat;
 }
+
+.icon-tag-yfk{
+	padding: 3px 10px;
+	color: #FFF;
+	margin-right: 10px;
+	background: url(../img/abnormal/yfk.png) no-repeat;
+}
+
+.icon-tag-wfk{
+	padding: 3px 10px;
+	color: #FFF;
+	margin-right: 10px;
+	background: url(../img/abnormal/wfk.png) no-repeat;
+}
+
 .abnormal-body .box-title{
-  padding-top: 11px;
-  padding-bottom: 0;
+	padding-top: 11px;
+	padding-bottom: 0;
 }
 .abnormal-body .box-body{
   padding-top: 18px;
@@ -190,6 +205,78 @@
   margin-left: 2px;
 }
 
+.text-sblue{
+	font-weight:800;
+	font-size:12px;
+	color: #0c6eba;
+}
+
+.icon-tag-wfka{
+	padding: 4px 12px;
+	color: #FFF;
+	margin-right: 12px;
+	background: url(../img/cookies/wfk.png) no-repeat;
+	font-size: 12px;
+}
+
+.text-sblues{
+	font-weight:800;
+	font-size:12px;
+	color: #0C6DBA;
+}
+
+.icon-tag-wbb{
+	padding: 4px 12px;
+	color: #FFF;
+	margin-right: 12px;
+	background: url(../img/cookies/wbb.png) no-repeat;
+	font-size: 12px;
+}
+
+.icon-tag-ybb{
+	padding: 4px 12px;
+	color: #FFF;
+	margin-right: 12px;
+	background: url(../img/cookies/ybb.png) no-repeat;
+	font-size: 12px;
+}
+
+.icon-tag-yfka{
+	padding: 4px 12px;
+	color: #FFF;
+	margin-right: 12px;
+	background: url(../img/cookies/yfk.png) no-repeat;
+	font-size: 12px;
+}
+
+.text-reda{
+	
+	font-size:12px;
+	color: #F0494a;
+}
 
 
+.text-sbluea{
+	font-size:12px;
+	color: #159deb;
+}
+
+.text-green{
+	font-size:12px;
+	color: #acacac;
+}
+
+.text-bluue{
+	font-size: 12px;
+	color: #3993c8;
+}
+
+.text-reed{
+	font-size: 12px;
+	color:#ee4947;
+}
+.text-agreen{
+	font-size: 12px;
+	color: #a7a7a7;
+}
 
