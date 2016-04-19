@@ -182,6 +182,11 @@
 
 }
 
+.container-all{
+	width: auto;
+	height: auto;
+}
+
 .row-h{
 	height: 50px;
 }
@@ -194,12 +199,14 @@
 	margin:10px ;
 }
 .text-wz{
-	font-size: 10px;
+	font-size: 12px;
 }
 
-.table-n{
-	margin-bottom: 0px;
+.table-my > table > tbody > tr > td {
+	padding: 15px;
 }
+
+
 
 .text-hd{
 	margin-bottom: 20px;
@@ -210,4 +217,74 @@
 
 .row-hd{
 	padding-top: 150px;
+}
+
+.text-gery{
+	color:#969696 ;
+	font-weight: 800;
+	font-size: 12px;
+}
+
+.text-blue-s{
+	color:#3893c7 ;
+	font-size: 12px;
+
+}
+
+.text-gery-hs{
+	color: #919191;
+	font-size: 12px;
+}
+
+
+.label-blue{
+	background-color: #2385ff;
+
+}
+
+.table-tr{
+	padding-top: 75px;
+}
+
+.text-h{
+	margin-top: 30px;
+}
+
+.bordered-c{
+	border: 1px solid;
+	color: #1a2327;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+}
+
+.row-jl{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.row-low{
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+.text-redd{
+	color: #ff3f3f;
+	font-size: 12px;
+}
+
+.text-bluee{
+	color: #5da7d1;
+	font-size: 12px;
+}
+
+.icon-kf{
+	background: url("../img/task/kfje.png");
+	margin-right: 0px;
+}
+
+.main-all{
+	margin-bottom: 18%;
+
 }
