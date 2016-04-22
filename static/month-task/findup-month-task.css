@@ -23,8 +23,9 @@
 	font-size:12px;
 	font-weight: normal;
 }
-.select-area button{
-	margin-top:3px;
+.select-area .btn-sm{
+	padding:5px 10px;
+	font-size:12px;
 }
 .visit-times{
 	display: inline-block;
@@ -37,7 +38,7 @@
 	color:#3893c7;
 }
 .dropdown-toggle{
-	padding:5px 12px 5px 18px;
+	padding:6px 12px 6px 18px;
 	font-size:12px;
 	background-color: #fff;
 }
@@ -51,7 +52,7 @@
 	margin:0 -20px 20px;
 }
 .box-body{
-	padding:0 20px;
+	padding:0 19px;
 }
 .page-index{
 	position:absolute;
@@ -60,4 +61,8 @@
 	-moz-transform:translateX(-50%);
 	-webkit-transform:translateX(-50%);
 	transform:translateX(-50%);
+}
+.btn-move{
+	position: relative;
+	bottom:1px;
 }
