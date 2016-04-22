@@ -15,6 +15,7 @@ ul{
 	margin-bottom:100px;
 }
 .section-wrapper{
+	margin-bottom:26px;
 	border:1px solid #eee;
 	-moz-border-top-left-radius:5px;
 	-webkit-border-top-left-radius:5px;
@@ -141,4 +142,8 @@ h5{
 .select-area{
 	width:193px;
 	margin-right:22px;
+}
+.select-area+.btn-sm{
+	padding:7px 12px;
+	font-size:12px;
 }
