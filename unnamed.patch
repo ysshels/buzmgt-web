@@ -1,0 +1,17 @@
+Index: month_cut_set.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- month_cut_set.html	(date 1461059113000)
++++ month_cut_set.html	(date 1461059184000)
+@@ -31,7 +31,7 @@
+                         <div class="row show-grid  row-jl ">
+                             <div class="col-md-4">
+                                 <div class="">
+-                                    <span class="text-gery">缺少一次拜访扣罚：</span>
++                                    <span class="text-gery">缺少一次拜访扣罚： </span>
+                                     <select>
+                                         <option>10</option>
+                                         <option>10</option>
+\ No newline at end of file

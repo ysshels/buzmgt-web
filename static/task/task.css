@@ -4,6 +4,10 @@
 .icon-task-list{
 	background:url(../img/task/renwu.png) no-repeat ;
 }
+
+.icon-task-lk{
+	background:url(../img/addcode/lk.png) no-repeat ;
+}
 .table-task-list{
 	
 }
@@ -129,6 +133,9 @@
 
 }
 
+.table>thead>tr>td{
+	padding: 200px;
+}
 .main-footer{
 	background: #DfDFDF;
 	height: 45px;
@@ -202,11 +209,6 @@
 	font-size: 12px;
 }
 
-.table-my > table > tbody > tr > td {
-	padding: 15px;
-}
-
-
 
 .text-hd{
 	margin-bottom: 20px;
@@ -238,8 +240,12 @@
 
 
 .label-blue{
+	display: inline-block;
 	background-color: #2385ff;
-
+	width:23px;
+	height:23px;
+	padding-top: 6px;
+	padding-left: 5px;
 }
 
 .table-tr{
@@ -272,6 +278,7 @@
 .text-redd{
 	color: #ff3f3f;
 	font-size: 12px;
+
 }
 
 .text-bluee{
@@ -287,4 +294,14 @@
 .main-all{
 	margin-bottom: 18%;
 
+}
+
+.col-blue-h{
+
+	padding-top: 16px;
+	padding-left: 15px;
+}
+
+.row-dd{
+	padding-top: 4px;
 }
