@@ -34,7 +34,7 @@
         <!--公里系数设置-->
         <div class="table-bordered">
             <div class="tab-content-main">
-                <div class="tab-pane active" id="">
+                <div class="tab-pane active">
                     <div class="table-responsive ">
                         <!--公里系数表头-->
                         <div class="text-tx row-d">
@@ -48,15 +48,11 @@
                             <span class="text-strong">倍</span>
                             <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
                         </div>
-
                         <!--设置公里系数表-->
                         <div class="bs-example">
                             <div id="acont" class="row">
                             </div>
-
-                            </table>
                         </div>
-
                         <div class="row show-grid   row-jl ">
                             <div class="col-md-5"></div>
                             <div class="col-md-7 ">
@@ -73,36 +69,32 @@
 
         <h4 class="text-hd">每公里油补金额设置：</h4>
         <!--每公里油补金额设置-->
-        <div class="tab-content-main">
-            <div class="table-bordered">
-                <div class="tab-pane active" id="all">
+        <div class="table-bordered">
+            <div class="tab-content-main">
+                <div class="tab-pane active">
                     <div class="table-responsive ">
                         <!--公里系数表头-->
                         <div class="text-tx row-d">
-                            <span class="text-strong">公里数系数：</span>
+                            <span class="text-strong">每公里油补金额：</span>
                             <select>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                             </select>
-                            <span class="text-strong">倍</span>
+                            <span class="text-strong">元/km</span>
                             <span class="text-blue">注：</span><span class="text-small">统默认所有区域均为改系数，自定义设置区域除外</span>
                         </div>
-
-                        <!--每公里油补金额设置-->
                         <!--设置公里系数表-->
                         <div class="bs-example">
-                            <div id="acont2" class="row">
+                            <div id="acontt" class="row">
                             </div>
-
-                            </table>
                         </div>
                         <div class="row show-grid   row-jl ">
                             <div class="col-md-5"></div>
                             <div class="col-md-7 ">
-                                <button class="col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
-                                        data-target="#zdyqy">
+                                <button class=" col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
+                                        data-target="#zdyqyoil">
                                     自定义设置区域
                                 </button>
                             </div>
@@ -111,6 +103,7 @@
                 </div>
             </div>
         </div>
+
         <div class="form-group">
             <div class="col-sm-offset-4 col-sm-4" style="margin-top: 20px">
                 <button type="submit" class="col-sm-12 btn btn-primary ">保存</button>
@@ -214,7 +207,69 @@
 
                         <div class="form-group">
                             <div class="col-sm-offset-4 col-sm-4 ">
-                                <a herf="javascript:return 0;" onclick="addd(this)" class="Zdy_add  col-sm-12 btn btn-primary" >确定
+                                <a herf="javascript:return 0;" onclick="addd(this)"
+                                   class="Zdy_add  col-sm-12 btn btn-primary">确定
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="zdyqyoil" class="modal fade" role="dialog">
+    <div class="modal-dialog " role="document">
+        <div class="modal-content modal-blue">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title">自定义区域</h3>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form id="addoil" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="" class="col-sm-4 control-label">选择区域：</label>
+                            <div class="col-sm-7">
+                                <div class="input-group are-line">
+                                    <span class="input-group-addon"><i class="icon icon-qy"></i></span>
+                                    <select name="address" type="" class="form-control input-h"
+                                            aria-describedby="basic-addon1">
+                                        <option></option>
+                                        <option>山东省济南市天桥区</option>
+                                        <option>山东省莱芜市莱城区</option>
+                                        <option>山东省青岛市四方区</option>
+                                        <option>山东省泰安新泰区</option>
+                                    </select><!-- /btn-group -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="" class="col-sm-4 control-label">公里系数：</label>
+                            <div class="col-sm-7">
+                                <div class="input-group are-line">
+                                    <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
+                                    <select name="klmt" type="" class="form-control input-h"
+                                            aria-describedby="basic-addon1">
+                                        <option></option>
+                                        <option>0.3</option>
+                                        <option>0.5</option>
+                                        <option>0.8</option>
+                                        <option>1.0</option>
+                                    </select><!-- /btn-group -->
+                                </div>
+                            </div>
+                            <div class="col-sm-1 control-label"><span>元/km</span></div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-4 col-sm-4 ">
+                                <a herf="javascript:return 0;" onclick="addoil(this)"
+                                   class="Zdy_add  col-sm-12 btn btn-primary">确定
                                 </a>
                             </div>
                         </div>
@@ -263,22 +318,22 @@
         resetTabullet();
     });
 
-    function addd(t){
+    function addd(toil) {
 
-        console.log( $("#addd").serializeArray());
-        addCustom( $("#addd").serializeArray());
+        console.log($("#addd").serializeArray());
+        addCustom($("#addd").serializeArray());
     }
-var i=1;
-    function addCustom(o){
-        var qy=o[0]["value"];
-        var glxs=o[1]["value"];
-        var html='<div class="col-sm-3 cl-padd">' +
+    var i = 1;
+    function addCustom(o) {
+        var qy = o[0]["value"];
+        var glxs = o[1]["value"];
+        var html = '<div class="col-sm-3 cl-padd">' +
                 '                <div class="ratio-box">' +
                 '                <div class="ratio-box-dd">' +
-                '                <span class="label  label-blue">'+(i++)+'</span>' +
-                '                <span class="">'+qy+'</span>' +
+                '                <span class="label  label-blue">' + (i++) + '</span>' +
+                '                <span class="">' + qy + '</span>' +
                 '                <a class="text-redd" href="" data-toggle="modal"' +
-                '        data-target="">'+glxs+'倍</a>' +
+                '        data-target="">' + glxs + '倍</a>' +
                 '        <a class="text-bluee" href="" data-toggle="modal"' +
                 '        data-target="#changed">修改</a>' +
                 '                <a class="text-bluee" href="" data-toggle="modal" data-targ' +
@@ -287,11 +342,38 @@ var i=1;
                 '                </div>' +
                 '                </div>';
         $("#acont").append(html);
-        $("#acont2").append(html);
-
 
     };
 
+
+
+    function addoil(t) {
+
+        console.log($("#addoil").serializeArray());
+        oilCustom($("#addoil").serializeArray());
+    }
+    var j = 1;
+    function oilCustom(o) {
+        var oqy  = o[0]["value"];
+        var okm = o[1]["value"];
+        var html = '<div class="col-sm-3 cl-padd">' +
+                '                <div class="ratio-box">' +
+                '                <div class="ratio-box-dd">' +
+                '                <span class="label  label-blue">' + (j++) + '</span>' +
+                '                <span class="">' + oqy + '</span>' +
+                '                <a class="text-redd" href="" data-toggle="modal"' +
+                '        data-target="">' + okm + '元/km</a>' +
+                '        <a class="text-bluee" href="" data-toggle="modal"' +
+                '        data-target="#changed">修改</a>' +
+                '                <a class="text-bluee" href="" data-toggle="modal" data-targ' +
+                't="">删除</a>' +
+                '                </div>' +
+                '                </div>' +
+                '                </div>';
+
+        $("#acontt").append(html);
+
+    };
 </script>
 
 </body>
