@@ -45,11 +45,24 @@
     height:500px;
     vertical-align:middle;
     text-align:center;
-    *float:left;
-    *font-family:simsun;
     *font-size:200px;
     *line-height:1;
 }
 /*个人资料*/
 
-
+/*公里系数*/
+.ratio-box{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    padding-left: 25px;
+    border:1px solid #ddd;
+}
+.ratio-box-dd{
+    display: inline-block;
+    position: relative;
+}
+.cl-padd{
+    padding-left: 0;
+    padding-right: 0;
+}

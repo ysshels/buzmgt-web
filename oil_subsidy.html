@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="static/yw-team-member/team-member.css"/>
     <link rel="stylesheet" type="text/css" href="static/account-manage/account-list.css"/>
     <link rel="stylesheet" type="text/css" href="static/task/task.css"/>
+    <link rel="stylesheet" type="text/css" href="static/oil/css/oil.css"/>
+
     <script src="static/js/jquery/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
@@ -32,8 +34,8 @@
         <!--公里系数设置-->
         <div class="table-bordered">
             <div class="tab-content-main">
-                <div  class="tab-pane active" id="">
-                    <div class="table-responsive">
+                <div class="tab-pane active" id="">
+                    <div class="table-responsive ">
                         <!--公里系数表头-->
                         <div class="text-tx row-d">
                             <span class="text-strong">公里数系数：</span>
@@ -49,122 +51,18 @@
 
                         <!--设置公里系数表-->
                         <div class="bs-example">
-                            <table class="table table-bordered  ">
-                                <tbody >
-                                <tr class="row-h" >
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">01</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
+                            <div id="acont" class="row">
+                            </div>
 
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">02</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">03</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">04</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                </tr>
-
-
-                                <tr class="row-h row-dd">
-                                    <td>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">05</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-
-                                </tbody>
                             </table>
                         </div>
 
                         <div class="row show-grid   row-jl ">
                             <div class="col-md-5"></div>
                             <div class="col-md-7 ">
-                                <button class="col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
+                                <button class=" col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
                                         data-target="#zdyqy">
-                                    自定义区域
+                                    自定义设置区域
                                 </button>
                             </div>
                         </div>
@@ -194,114 +92,10 @@
 
                         <!--每公里油补金额设置-->
                         <!--设置公里系数表-->
-                        <div class="bs-example" data-example-id="bordered-table">
-                            <table class="table table-bordered table-my">
-                                <tbody >
-                                <tr class="row-h">
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">01</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
+                        <div class="bs-example">
+                            <div id="acont2" class="row">
+                            </div>
 
-                                    <td >
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">02</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                    <td >
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">03</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                    <td>
-                                        <div class="row row-dd">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">04</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-
-                                </tr>
-
-
-                                <tr class="row-h">
-                                    <td scope="row row-dd">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <span class="label  label-blue">05</span>
-                                                <span class="text-wz"> 山东省滨州市邹县</span>
-                                            </div>
-                                            <div class="col-md-2"><a class="text-redd" href="" data-toggle="modal"
-                                                                     data-target="">1.5倍</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal"
-                                                   data-target="#changed">修改</a>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <a class="text-bluee" href="" data-toggle="modal" data-target="">删除</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-
-                                </tbody>
                             </table>
                         </div>
                         <div class="row show-grid   row-jl ">
@@ -309,7 +103,7 @@
                             <div class="col-md-7 ">
                                 <button class="col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
                                         data-target="#zdyqy">
-                                    设置自定义区域
+                                    自定义设置区域
                                 </button>
                             </div>
                         </div>
@@ -360,7 +154,7 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-offset-4 col-sm-4 ">
-                                <button type="submit" class="col-sm-12 btn btn-primary " >确定</button>
+                                <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
                             </div>
                         </div>
                     </form>
@@ -382,19 +176,19 @@
             </div>
             <div class="modal-body">
                 <div class="container-fluid">
-                    <form class="form-horizontal">
+                    <form id="addd" class="form-horizontal">
                         <div class="form-group">
                             <label for="" class="col-sm-4 control-label">选择区域：</label>
                             <div class="col-sm-7">
                                 <div class="input-group are-line">
                                     <span class="input-group-addon"><i class="icon icon-qy"></i></span>
-                                    <select type="" class="form-control input-h"
+                                    <select name="a" type="" class="form-control input-h"
                                             aria-describedby="basic-addon1">
                                         <option></option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
+                                        <option>山东省济南市天桥区</option>
+                                        <option>山东省莱芜市莱城区</option>
+                                        <option>山东省青岛市四方区</option>
+                                        <option>山东省泰安新泰区</option>
                                     </select><!-- /btn-group -->
                                 </div>
                             </div>
@@ -405,7 +199,7 @@
                             <div class="col-sm-7">
                                 <div class="input-group are-line">
                                     <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
-                                    <select type="" class="form-control input-h"
+                                    <select name="b" type="" class="form-control input-h"
                                             aria-describedby="basic-addon1">
                                         <option></option>
                                         <option>1</option>
@@ -420,9 +214,8 @@
 
                         <div class="form-group">
                             <div class="col-sm-offset-4 col-sm-4 ">
-                                <button a href="javascript" type="submit" class="col-sm-12 btn btn-primary"
-                                        id=" add-event">确定
-                                </button>
+                                <a herf="javascript:return 0;" onclick="addd(this)" class="Zdy_add  col-sm-12 btn btn-primary" >确定
+                                </a>
                             </div>
                         </div>
                     </form>
@@ -440,37 +233,64 @@
 <script src="static/bootstrap/js/bootstrap-switch.min.js"></script>
 <script src="static/js/jquery/scroller/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"
         charset="utf-8"></script>
-<script src="static/js/oil-subidy.js"></script>
 <script type="text/javascript">
-
     $(function resetTabullet() {
-            $("#table").tabullet({
-                data: source,
-                action: function(mode, data) {
-                    console.dir(mode);
-                    if (mode === 'save') {
-                        source.push(data);
-                    }
-                    if (mode === 'edit') {
-                        for (var i = 0; i < source.length; i++) {
-                            if (source[i].id == data.id) {
-                                source[i] = data;
-                            }
-                        }
-                    }
-                    if (mode == 'delete') {
-                        for (var i = 0; i < source.length; i++) {
-                            if (source[i].id == data) {
-                                source.splice(i, 1);
-                                break;
-                            }
-                        }
-                    }
-                    resetTabullet();
+        $("#table").tabullet({
+            data: source,
+            action: function (mode, data) {
+                console.dir(mode);
+                if (mode === 'save') {
+                    source.push(data);
                 }
-            });
+                if (mode === 'edit') {
+                    for (var i = 0; i < source.length; i++) {
+                        if (source[i].id == data.id) {
+                            source[i] = data;
+                        }
+                    }
+                }
+                if (mode == 'delete') {
+                    for (var i = 0; i < source.length; i++) {
+                        if (source[i].id == data) {
+                            source.splice(i, 1);
+                            break;
+                        }
+                    }
+                }
+                resetTabullet();
+            }
+        });
         resetTabullet();
     });
+
+    function addd(t){
+
+        console.log( $("#addd").serializeArray());
+        addCustom( $("#addd").serializeArray());
+    }
+var i=1;
+    function addCustom(o){
+        var qy=o[0]["value"];
+        var glxs=o[1]["value"];
+        var html='<div class="col-sm-3 cl-padd">' +
+                '                <div class="ratio-box">' +
+                '                <div class="ratio-box-dd">' +
+                '                <span class="label  label-blue">'+(i++)+'</span>' +
+                '                <span class="">'+qy+'</span>' +
+                '                <a class="text-redd" href="" data-toggle="modal"' +
+                '        data-target="">'+glxs+'倍</a>' +
+                '        <a class="text-bluee" href="" data-toggle="modal"' +
+                '        data-target="#changed">修改</a>' +
+                '                <a class="text-bluee" href="" data-toggle="modal" data-targ' +
+                't="">删除</a>' +
+                '                </div>' +
+                '                </div>' +
+                '                </div>';
+        $("#acont").append(html);
+        $("#acont2").append(html);
+
+
+    };
 
 </script>
 
