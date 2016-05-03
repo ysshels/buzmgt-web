@@ -199,23 +199,32 @@
 }
 
 .row-d{
-	height: 30px;
+	height: 25px;
 }
 
 .text-tx{
-	margin:10px ;
+	margin:28px ;
 }
 .text-wz{
 	font-size: 12px;
 }
 
 
-.text-hd{
-	margin-bottom: 20px;
-	margin-top: 20px;
-	font-weight: 600;
+
+
+.jl-{
+	margin-left: 35px;
 }
 
+.jll{
+	margin-left: 10px;
+}
+
+.text-black{
+	font-size: 10px;
+	font-weight: 500;
+	color: #555555;
+}
 
 .row-hd{
 	padding-top: 150px;

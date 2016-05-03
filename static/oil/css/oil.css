@@ -1,3 +1,8 @@
+.mian .page-header.bgc {
+    background:#ebebeb;
+}
+
+
 /*日期位置*/
 .date-wz{
     width:20%;
@@ -20,6 +25,18 @@
 
 }
 
+
+.table-bordered.bjc{
+    background-color: #fff;
+}
+
+.text-hd{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #555555;
+}
 
 .text-bt{
     font-size: 130px;
