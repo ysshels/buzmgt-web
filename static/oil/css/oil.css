@@ -72,8 +72,9 @@
     display: inline-block;
     width: 100%;
     padding: 15px;
-    padding-left: 25px;
+    padding-left: 30px;
     border:1px solid #ddd;
+
 }
 .ratio-box-dd{
     display: inline-block;
@@ -111,6 +112,9 @@
 
 }
 
+.zdy-h{
+    margin-bottom: 30px;
+}
 
 .row-jl{
     margin-top: 35px;
@@ -135,6 +139,10 @@
 .main-all{
     margin-bottom: 18%;
 
+}
+
+.input-h{
+    height: 36px;
 }
 
 .col-blue-h{
