@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="static/yw-team-member/ywmember.css" />
     <link rel="stylesheet" type="text/css" href="static/abnormal/abnormal.css" />
     <link rel="stylesheet" type="text/css" href="static/oil/css/oil.css">
+    <link rel="stylesheet" type="text/css" href="static/bootStrapPager/css/page.css">
 
     <script src="static/js/jquery/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
@@ -133,6 +134,9 @@
                                 </table>
                             </div>
                             <!--table-box-->
+                            <style type="text/css">
+                            	
+                            </style>
                             <!--翻页-->
                             <div class="page-turn">
                                 <nav>
@@ -146,6 +150,10 @@
                                         <li><a href="#">5</a></li>
                                         <li><a href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                                     </ul>
+                                    <div class="turn-page-box pagination">
+                                      <input class="form-control " placeholder="跳转" name="currtpage" onkeyup="this.value=this.value.replace(/\\D/g,\'\')">
+                                      <a class="goto" href="javascript:;"><i class="ico icon-search-page"></i></a>
+                                    </div>
                                 </nav>
                             </div>
                         </div>
