@@ -119,6 +119,7 @@
 .row-jl{
     margin-top: 35px;
     margin-bottom: 35px;
+    text-align: center;
 }
 .row-low{
     margin-top: 26px;
@@ -153,4 +154,7 @@
 
 .row-dd{
     padding-top: 4px;
+}
+.bs-example > .row{
+  margin: 0;
 }
