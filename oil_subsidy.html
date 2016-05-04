@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,368 +11,349 @@
 
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/bootstrap/css/bootstrap-switch.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="static/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/common.css" />
     <!--<link rel="stylesheet" type="text/css" href="static/yw-team-member/team-member.css"/>-->
     <!--<link rel="stylesheet" type="text/css" href="static/account-manage/account-list.css"/>-->
-    <link rel="stylesheet" type="text/css" href="static/task/task.css"/>
-    <link rel="stylesheet" type="text/css" href="static/oil/css/oil.css"/>
+    <link rel="stylesheet" type="text/css" href="static/task/task.css" />
+    <link rel="stylesheet" type="text/css" href="static/oil/css/oil.css" />
 
     <script src="static/js/jquery/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
-</head>
+  </head>
 
-<body>
+  <body>
 
-<div class="content main">
-    <h4 class="page-header">
+    <div class="content main">
+      <h4 class="page-header">
         <i class="ico ico-account-manage-oil"></i>设置油补系数
     </h4>
 
-    <div>
+      <div>
         <!-- Nav tabs -->
         <h4 class="text-hd">公里系数设置：</h4>
         <!-- Tab panes -->
         <!--全部--->
         <!--公里系数设置-->
         <div class="table-bordered bjc">
-            <div class="tab-content-main">
-                <div class="tab-pane active">
-                    <div class="table-responsive tb-b ">
-                        <!--公里系数表头-->
-                        <div class="text-tx row-d">
-                            <span class="text-gery">公里数系数：</span>
-                            <select>
+          <div class="tab-content-main">
+            <div class="tab-pane active">
+              <div class="table-responsive tb-b ">
+                <!--公里系数表头-->
+                <div class="text-tx row-d">
+                  <span class="text-gery">公里数系数：</span>
+                  <select>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                             </select>
-                            <span class="text-gery ">倍</span>
-                            <span class="text-blue-s jl-">注：</span><span
-                                class="text-gery-hs">统默认所有区域均为改系数，自定义设置区域除外</span>
-                        </div>
-                        <!--设置公里系数表-->
-                        <div class="bs-example">
-                            <div id="acont" class="row">
-                            </div>
-                        </div>
-                        <div class="show-grid   row-jl ">
-                            <div class="col-md-5"></div>
-                            <div class="col-md-7  zdy-h ">
-                                <button class=" col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
-                                        data-target="#zdyqy">
+                  <span class="text-gery ">倍</span>
+                  <span class="text-blue-s jl-">注：</span><span class="text-gery-hs">统默认所有区域均为改系数，自定义设置区域除外</span>
+                </div>
+                <!--设置公里系数表-->
+                <div class="bs-example">
+                  <div id="acont" class="row">
+                  </div>
+                </div>
+                <div class="show-grid   row-jl ">
+                  <button class="btn btn-default" type="button" data-toggle="modal" data-target="#zdyqy">
                                     自定义设置区域
                                 </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-
         <h4 class="text-hd">每公里油补金额设置：</h4>
         <!--每公里油补金额设置-->
         <div class="table-bordered bjc">
-            <div class="tab-content-main">
-                <div class="tab-pane active">
-                    <div class="table-responsive tb-b">
-                        <!--公里系数表头-->
-                        <div class="text-tx row-d">
-                            <span class="text-gery">每公里油补金额：</span>
-                            <select>
+          <div class="tab-content-main">
+            <div class="tab-pane active">
+              <div class="table-responsive tb-b">
+                <!--公里系数表头-->
+                <div class="text-tx row-d">
+                  <span class="text-gery">每公里油补金额：</span>
+                  <select>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                                 <option>1.5</option>
                             </select>
-                            <span class="text-gery">元/km</span>
-                            <span class="text-blue-s jl-">注：</span><span
-                                class="text-gery-hs">统默认所有区域均为改系数，自定义设置区域除外</span>
-                        </div>
-                        <!--设置公里系数表-->
-                        <div class="bs-example">
-                            <div id="acontt" class="row">
-                            </div>
-                        </div>
-                        <div class=" show-grid   row-jl ">
-                            <div class="col-md-5"></div>
-                            <div class="col-md-7 zdy-h">
-                                <button class=" col-sm-3 btn  btn btn-default" type="button" data-toggle="modal"
-                                        data-target="#zdyqyoil">
+                  <span class="text-gery">元/km</span>
+                  <span class="text-blue-s jl-">注：</span><span class="text-gery-hs">统默认所有区域均为改系数，自定义设置区域除外</span>
+                </div>
+                <!--设置公里系数表-->
+                <div class="bs-example">
+                  <div id="acontt" class="row">
+                  </div>
+                </div>
+                <div class=" show-grid   row-jl ">
+                  <button class="btn  btn btn-default" type="button" data-toggle="modal" data-target="#zdyqyoil">
                                     自定义设置区域
                                 </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <div class="form-group">
+        </div>
+        <div class="form-group ">
+          <div class="row">
             <div class="col-sm-offset-4 col-sm-4" style="margin-top: 20px">
-                <button type="submit" class="col-sm-12 btn btn-primary ">保存</button>
+              <button type="submit" class="col-sm-12 btn btn-primary ">保存</button>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- /alert htmlg修改公里系数 -->
-    <div id="changed" class="modal fade" role="dialog">
-        <div class="modal-dialog " role="document">
+        <!-- /alert htmlg修改公里系数 -->
+        <div id="changed" class="modal fade" role="dialog">
+          <div class="modal-dialog " role="document">
             <div class="modal-content modal-blue">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title">修改</h3>
-                </div>
+                <h3 class="modal-title">修改</h3>
+              </div>
 
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label">选择区域：</label>
-                                <div class="col-sm-7">
-                                    <div class="input-group are-line">
-                                        <span class="input-group-addon"><i class="icon icon-lk"></i></span>
-                                        <select type="" class="form-control input-h" aria-describedby="basic-addon1">
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label class="col-sm-4 control-label">选择区域：</label>
+                      <div class="col-sm-7">
+                        <div class="input-group are-line">
+                          <span class="input-group-addon"><i class="icon icon-lk"></i></span>
+                          <select type="" class="form-control input-h" aria-describedby="basic-addon1">
                                             <option></option>
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <!-- /btn-group -->
-                                    </div>
-                                </div>
-                                <div class="col-sm-1 control-label"><span>元/km</span></div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-offset-4 col-sm-4 ">
-                                    <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
-                                </div>
-                            </div>
-                        </form>
+                          <!-- /btn-group -->
+                        </div>
+                      </div>
+                      <div class="col-sm-1 control-label"><span>元/km</span></div>
                     </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-4 col-sm-4 ">
+                        <button type="submit" class="col-sm-12 btn btn-primary ">确定</button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <!-- /alert html -->
+        <!-- /alert html -->
 
-    <div id="zdyqy" class="modal fade" role="dialog">
-        <div class="modal-dialog " role="document">
+        <div id="zdyqy" class="modal fade" role="dialog">
+          <div class="modal-dialog " role="document">
             <div class="modal-content modal-blue">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title">自定义区域</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form id="addd" class="form-horizontal">
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label">选择区域：</label>
-                                <div class="col-sm-7">
-                                    <div class="input-group are-line">
-                                        <span class="input-group-addon"><i class="icon icon-qy"></i></span>
-                                        <select name="a" type="" class="form-control input-h"
-                                                aria-describedby="basic-addon1">
+                <h3 class="modal-title">自定义区域</h3>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <form id="addd" class="form-horizontal">
+                    <div class="form-group">
+                      <label class="col-sm-4 control-label">选择区域：</label>
+                      <div class="col-sm-7">
+                        <div class="input-group are-line">
+                          <span class="input-group-addon"><i class="icon icon-qy"></i></span>
+                          <select name="a" type="" class="form-control input-h" aria-describedby="basic-addon1">
                                             <option></option>
                                             <option>山东省济南市天桥区</option>
                                             <option>山东省莱芜市莱城区</option>
                                             <option>山东省青岛市四方区</option>
                                             <option>山东省泰安新泰区</option>
                                         </select>
-                                        <!-- /btn-group -->
-                                    </div>
-                                </div>
-                            </div>
+                          <!-- /btn-group -->
+                        </div>
+                      </div>
+                    </div>
 
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label">公里系数：</label>
-                                <div class="col-sm-7">
-                                    <div class="input-group are-line">
-                                        <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
-                                        <select name="b" type="" class="form-control input-h"
-                                                aria-describedby="basic-addon1">
+                    <div class="form-group">
+                      <label class="col-sm-4 control-label">公里系数：</label>
+                      <div class="col-sm-7">
+                        <div class="input-group are-line">
+                          <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
+                          <select name="b" type="" class="form-control input-h" aria-describedby="basic-addon1">
                                             <option></option>
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
                                             <option>4</option>
                                         </select>
-                                        <!-- /btn-group -->
-                                    </div>
-                                </div>
-                                <div class="col-sm-1 control-label"><span>倍</span></div>
-                            </div>
+                          <!-- /btn-group -->
+                        </div>
+                      </div>
+                      <div class="col-sm-1 control-label"><span>倍</span></div>
+                    </div>
 
-                            <div class="form-group">
-                                <div class="col-sm-offset-4 col-sm-4 ">
-                                    <a herf="javascript:return 0;" onclick="addd(this)"
-                                       class="Zdy_add  col-sm-12 btn btn-primary">确定
+                    <div class="form-group">
+                      <div class="col-sm-offset-4 col-sm-4 ">
+                        <a herf="javascript:return 0;" onclick="addd(this)" class="Zdy_add  col-sm-12 btn btn-primary">确定
                                     </a>
-                                </div>
-                            </div>
-                        </form>
+                      </div>
                     </div>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
 
-    <div id="zdyqyoil" class="modal fade" role="dialog">
-        <div class="modal-dialog " role="document">
+        <div id="zdyqyoil" class="modal fade" role="dialog">
+          <div class="modal-dialog " role="document">
             <div class="modal-content modal-blue">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                             aria-hidden="true">&times;</span></button>
-                    <h3 class="modal-title">自定义区域</h3>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form id="addoil" class="form-horizontal">
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label">选择区域：</label>
-                                <div class="col-sm-7">
-                                    <div class="input-group are-line">
-                                        <span class="input-group-addon"><i class="icon icon-qy"></i></span>
-                                        <select name="address" type="" class="form-control input-h"
-                                                aria-describedby="basic-addon1">
+                <h3 class="modal-title">自定义区域</h3>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <form id="addoil" class="form-horizontal">
+                    <div class="form-group">
+                      <label class="col-sm-4 control-label">选择区域：</label>
+                      <div class="col-sm-7">
+                        <div class="input-group are-line">
+                          <span class="input-group-addon"><i class="icon icon-qy"></i></span>
+                          <select name="address" type="" class="form-control input-h" aria-describedby="basic-addon1">
                                             <option></option>
                                             <option>山东省济南市天桥区</option>
                                             <option>山东省莱芜市莱城区</option>
                                             <option>山东省青岛市四方区</option>
                                             <option>山东省泰安新泰区</option>
                                         </select>
-                                        <!-- /btn-group -->
-                                    </div>
-                                </div>
-                            </div>
+                          <!-- /btn-group -->
+                        </div>
+                      </div>
+                    </div>
 
-                            <div class="form-group">
-                                <label class="col-sm-4 control-label">公里系数：</label>
-                                <div class="col-sm-7">
-                                    <div class="input-group are-line">
-                                        <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
-                                        <select name="klmt" type="" class="form-control input-h"
-                                                aria-describedby="basic-addon1">
+                    <div class="form-group">
+                      <label class="col-sm-4 control-label">公里系数：</label>
+                      <div class="col-sm-7">
+                        <div class="input-group are-line">
+                          <span class="input-group-addon"><i class="icon icon-task-lk"></i></span>
+                          <select name="klmt" type="" class="form-control input-h" aria-describedby="basic-addon1">
                                             <option></option>
                                             <option>0.3</option>
                                             <option>0.5</option>
                                             <option>0.8</option>
                                             <option>1.0</option>
                                         </select>
-                                        <!-- /btn-group -->
-                                    </div>
-                                </div>
-                                <div class="col-sm-1 control-label"><span>元/km</span></div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-offset-4 col-sm-4 ">
-                                    <a herf="javascript:return 0;" onclick="addoil(this)"
-                                       class="Zdy_add  col-sm-12 btn btn-primary">确定
-                                    </a>
-                                </div>
-                            </div>
-                        </form>
+                          <!-- /btn-group -->
+                        </div>
+                      </div>
+                      <div class="col-sm-1 control-label"><span>元/km</span></div>
                     </div>
+
+                    <div class="form-group">
+                      <div class="col-sm-offset-4 col-sm-4 ">
+                        <a herf="javascript:return 0;" onclick="addoil(this)" class="Zdy_add  col-sm-12 btn btn-primary">确定
+                                    </a>
+                      </div>
+                    </div>
+                  </form>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 
-<script src="static/js/jquery/jquery-1.11.3.min.js"></script>
+      <script src="static/js/jquery/jquery-1.11.3.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="static/bootstrap/js/bootstrap.min.js"></script>
-<script src="static/bootstrap/js/bootstrap-switch.min.js"></script>
-<script src="static/js/jquery/scroller/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"
-        charset="utf-8"></script>
-<script type="text/javascript">
-    $(function resetTabullet() {
-        $("#table").tabullet({
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="static/bootstrap/js/bootstrap.min.js"></script>
+      <script src="static/bootstrap/js/bootstrap-switch.min.js"></script>
+      <script src="static/js/jquery/scroller/jquery.mCustomScrollbar.concat.min.js" type="text/javascript" charset="utf-8"></script>
+      <script type="text/javascript">
+        $(function resetTabullet() {
+          $("#table").tabullet({
             data: source,
-            action: function (mode, data) {
-                console.dir(mode);
-                if (mode === 'save') {
-                    source.push(data);
+            action: function(mode, data) {
+              console.dir(mode);
+              if (mode === 'save') {
+                source.push(data);
+              }
+              if (mode === 'edit') {
+                for (var i = 0; i < source.length; i++) {
+                  if (source[i].id == data.id) {
+                    source[i] = data;
+                  }
                 }
-                if (mode === 'edit') {
-                    for (var i = 0; i < source.length; i++) {
-                        if (source[i].id == data.id) {
-                            source[i] = data;
-                        }
-                    }
+              }
+              if (mode == 'delete') {
+                for (var i = 0; i < source.length; i++) {
+                  if (source[i].id == data) {
+                    source.splice(i, 1);
+                    break;
+                  }
                 }
-                if (mode == 'delete') {
-                    for (var i = 0; i < source.length; i++) {
-                        if (source[i].id == data) {
-                            source.splice(i, 1);
-                            break;
-                        }
-                    }
-                }
-                resetTabullet();
+              }
+              resetTabullet();
             }
+          });
+          resetTabullet();
         });
-        resetTabullet();
-    });
 
-    function addd(toil) {
-        console.log($("#addd").serializeArray());
-        addCustom($("#addd").serializeArray());
-    }
-    var i = 1;
+        function addd(toil) {
+          console.log($("#addd").serializeArray());
+          addCustom($("#addd").serializeArray());
+        }
+        var i = 1;
 
-    function addCustom(o) {
-        var qy = o[0]["value"];
-        var glxs = o[1]["value"];
-        var html = '<div class="col-sm-3 cl-padd">' +
-                '                <div class="ratio-box">' +
-                '                <div class="ratio-box-dd">' +
-                '                <span class="label  label-blue">' + (i++) + '</span>' +
-                '                <span class="text-black jll">' + qy + '</span>' +
-                '                <a class="text-redd jll" href="" data-toggle="modal"' +
-                '        data-target="">' + glxs + '倍</a>' +
-                '        <a class="text-blue-s jll" href="" data-toggle="modal"' +
-                '        data-target="#changed">修改</a>' +
-                '                <a class="text-blue-s jll" href="" data-toggle="modal" data-targ' +
-                't="">删除</a>' +
-                '                </div>' +
-                '                </div>' +
-                '                </div>';
-        $("#acont").append(html);
-    }
-    ;
+        function addCustom(o) {
+          var qy = o[0]["value"];
+          var glxs = o[1]["value"];
+          var html = '<div class="col-sm-3 cl-padd">' +
+            '                <div class="ratio-box">' +
+            '                <div class="ratio-box-dd">' +
+            '                <span class="label  label-blue">' + (i++) + '</span>' +
+            '                <span class="text-black jll">' + qy + '</span>' +
+            '                <a class="text-redd jll" href="" data-toggle="modal"' +
+            '        data-target="">' + glxs + '倍</a>' +
+            '        <a class="text-blue-s jll" href="" data-toggle="modal"' +
+            '        data-target="#changed">修改</a>' +
+            '                <a class="text-blue-s jll" href="" data-toggle="modal" data-targ' +
+            't="">删除</a>' +
+            '                </div>' +
+            '                </div>' +
+            '                </div>';
+          $("#acont").append(html);
+        };
 
-    function addoil(t) {
-        console.log($("#addoil").serializeArray());
-        oilCustom($("#addoil").serializeArray());
-    }
-    var j = 1;
+        function addoil(t) {
+          console.log($("#addoil").serializeArray());
+          oilCustom($("#addoil").serializeArray());
+        }
+        var j = 1;
 
-    function oilCustom(o) {
-        var oqy = o[0]["value"];
-        var okm = o[1]["value"];
-        var html = '<div class="col-sm-3 cl-padd">' +
-                '                <div class="ratio-box">' +
-                '                <div class="ratio-box-dd">' +
-                '                <span class="label  label-blue">' + (j++) + '</span>' +
-                '                <span class="text-black jll">' + oqy + '</span>' +
-                '                <a class="text-redd jll" href="" data-toggle="modal"' +
-                '        data-target="">' + okm + '元/km</a>' +
-                '        <a class="text-blue-s jll" href="" data-toggle="modal"' +
-                '        data-target="#changed">修改</a>' +
-                '                <a class="text-blue-s jll" href="" data-toggle="modal" data-targ' +
-                't="">删除</a>' +
-                '                </div>' +
-                '                </div>' +
-                '                </div>';
-        $("#acontt").append(html);
-    }
-    ;
-</script>
+        function oilCustom(o) {
+          var oqy = o[0]["value"];
+          var okm = o[1]["value"];
+          var html = '<div class="col-sm-3 cl-padd">' +
+            '                <div class="ratio-box">' +
+            '                <div class="ratio-box-dd">' +
+            '                <span class="label  label-blue">' + (j++) + '</span>' +
+            '                <span class="text-black jll">' + oqy + '</span>' +
+            '                <a class="text-redd jll" href="" data-toggle="modal"' +
+            '        data-target="">' + okm + '元/km</a>' +
+            '        <a class="text-blue-s jll" href="" data-toggle="modal"' +
+            '        data-target="#changed">修改</a>' +
+            '                <a class="text-blue-s jll" href="" data-toggle="modal" data-targ' +
+            't="">删除</a>' +
+            '                </div>' +
+            '                </div>' +
+            '                </div>';
+          $("#acontt").append(html);
+        };
+      </script>
 
-</body>
+  </body>
 
 </html>

@@ -1,11 +1,8 @@
-
 .mian .page-header.bgc {
     background:#ebebeb;
 }
 
-.ico-account-manage-oil{
-    background: url("../../img/icon/left-mean/jcsz1.png") no-repeat;
-}
+
 /*日期位置*/
 .date-wz{
     width:20%;
@@ -27,6 +24,7 @@
     height: 0px;
 
 }
+
 
 .table-bordered.bjc{
     background-color: #fff;
@@ -83,9 +81,8 @@
     position: relative;
 }
 .cl-padd{
-    padding-left:0 ;
-    padding-right:0;
-
+    padding-left: 0;
+    padding-right: 0;
 }
 /*蓝色标签*/
 .label-blue{
@@ -115,7 +112,6 @@
 
 }
 
-
 .zdy-h{
     margin-bottom: 30px;
 }
@@ -123,6 +119,7 @@
 .row-jl{
     margin-top: 35px;
     margin-bottom: 35px;
+    text-align: center;
 }
 .row-low{
     margin-top: 26px;
@@ -158,6 +155,6 @@
 .row-dd{
     padding-top: 4px;
 }
-.bs-example .row{
-    margin: 0;
+.bs-example > .row{
+  margin: 0;
 }
