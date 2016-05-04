@@ -1,3 +1,7 @@
+.box-body-a{
+    width: 1369px;
+    height: 750px;
+}
 
 .icon-task-detail {
     background: url(../img/task/xm.png) no-repeat;
@@ -8,7 +12,11 @@
 }
 
 .icon-task-sz {
-    background: url(../img/icon/saojie/set/sjsz.png) no-repeat;
+    display: inline-block;
+    margin-right:3px;
+    padding:7px;
+    vertical-align: middle;
+    background: url(../img/icon/oil-subsidy/setting.png) no-repeat;
 }
 .icon-finds{
     background: url(../img/icon/team-member/list/sousuo1.png) no-repeat;
@@ -16,6 +24,16 @@
 .text-blue {
     color: #1087cb;
     font-weight: 600;
+}
+
+
+.btn-setting{
+    margin-left:5px;
+    padding:3px;
+    background-color:#fbfbfb;
+    color:#8c8c8c;
+    border:1px solid #eee;
+    font-size:12px;
 }
 
 .text-bule {
@@ -30,11 +48,19 @@
     width: 167px;
 }
 
-/*图片设置距离*/
-.pic-jl {
-    padding: 0 0 0 0;
+.th-with{
+    height: 50px;
+    width: 200px;
 }
 
+.row-a{
+    height: 30px;
+    width: 1100px;
+}
+
+.tr-width{
+    width: 100%;
+}
 
 .text-body {
     font-weight: 100;
@@ -71,6 +97,20 @@
     margin-top: 5px;
 }
 
+.text-bai{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.text-bai-d {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+}
+.input-jl{
+    margin-right: 30px;
+}
 
 .date-wzz {
     padding-bottom: 8px;
@@ -88,6 +128,12 @@
     font-size: 12px;
 }
 
+
+.text-gery-s {
+    color: #cccccc;
+    font-size: 12px;
+    font-weight: 400;
+}
 .text-block {
     color: #606060;
     font-size: 12px;
@@ -95,7 +141,7 @@
 
 .row-h{
     width: auto;
-    height:35px;
+    height:30px;
 }
 /*搜索栏中按钮的样式*/
 .input-in  {

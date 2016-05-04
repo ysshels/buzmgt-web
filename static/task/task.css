@@ -8,6 +8,10 @@
 .icon-task-lk{
 	background:url(../img/addcode/lk.png) no-repeat ;
 }
+
+.icon-task-je{
+	background:url(../img/addcode/je.png) no-repeat ;
+}
 .table-task-list{
 	
 }
@@ -18,6 +22,12 @@
 .text-state-no{
 	color: #ff9804;
 }
+
+.content{
+	height: 700px;
+}
+
+
 .btn-sm{
 	padding-top: 2px;
 	padding-bottom: 2px;
@@ -178,6 +188,8 @@
 	*line-height:1;
 
 }
+
+
 
 .container-all{
 	width: auto;
