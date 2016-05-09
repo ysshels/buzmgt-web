@@ -18,25 +18,13 @@
 		<div class="content main">
 			<h4 class="page-header ">
 				<i class="ico icon-add"></i>添加月任务
-			</h4>
-			<!-- area-select -->
-			<div class="row">
-				<div class="col-md-12">
-					<form class="form-horizontal" role="form">
-					    <div class="form-group clearfix">
-						    <label for="basic" class="select-label fl">选择区域：</label>
-						    <div class="select-area fl">
-							    <select id="basic" class="selectpicker show-tick form-control fl">
-									<option>山东省-德州市-武城县1</option>
-									<option>山东省-德州市-武城县2</option>
-									<option>山东省-德州市-武城县3</option>
-						        </select>
-						    </div>
-					    </div>
-					</form>
+				<!--区域选择按钮-->
+				<div class="area-choose">
+					选择区域：<span>山东省</span> <a class="are-line" href="javascript:;"
+						onclick="">切换</a>
 				</div>
-			</div>
-			<!-- area-select -->
+				<!--/区域选择按钮-->
+			</h4>
 			<!-- person-select -->
 			<div class="row">
 				<div class="col-md-12">
@@ -277,6 +265,7 @@
 			<!-- mask -->
 			<div class="mask">
 				<button type="button" class="btn btn-blue save-btn">保存</button>
+				<button type="button" class="btn btn-deep-blue save-btn">发布</button>
 			</div>
 			<!-- mask -->
 
