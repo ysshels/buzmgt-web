@@ -58,9 +58,18 @@
     width:80%;
 }
 
-.tr-width{
+.btn-jl{
+    margin-right: 10px;
+}
+
+.btn-null{
+    float: left;
+    width: 59px;
+    height: 30px;
 
 }
+
+
 
 .text-body {
     font-weight: 100;
