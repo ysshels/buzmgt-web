@@ -26,6 +26,13 @@
 .icon-water{
     background: url("../img/water-order/ls.png")no-repeat center;
 }
+.icon-wait-setting{
+    display: inline-block;
+    margin-right:3px;
+    padding:7px;
+    background:url(../img/check-pending/setting.png) no-repeat;
+    vertical-align: middle;
+}
 .text-hd{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -288,17 +295,13 @@ tr:hover .btn-findup{
     min-width:220px;
 }
 .wait-setting{
-    margin:0 50px 0 20px;
-    padding:5px 5px 5px 20px;
-    border:1px solid #eee;
-    -moz-border-radius:3px;
-    -webkit-border-radius:3px;
-    border-radius:3px;
-    font-size:12px;
-    color:#8c8c8c;
+    margin-left:5px;
+    margin-right:40px;
+    padding:3px;
     background-color:#fbfbfb;
-    background:url('../img/cut-set/jcsz1.png') no-repeat left center;
-    cursor:pointer;
+    color:#8c8c8c;
+    border:1px solid #eee;
+    font-size:12px;
 }
 .dialog-calender .search-date{
     width:100%;
