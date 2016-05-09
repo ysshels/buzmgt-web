@@ -171,7 +171,6 @@
     background-color: #ffffff;
     border:1px silver solid;
     border-radius: 3px;
-
 }
 
 .form-tq{
@@ -241,4 +240,89 @@
 .tb-nb{
     margin-bottom: 0px;
     margin-top: 0px;
+}
+.check-btn{
+    margin-left:11px;
+    margin-right:44px;
+}
+.salesman-input{
+    padding-left:5px;
+    color: #919191;
+    font-size: 12px;
+}
+table tr.status-exception td{
+    color:#f02c2c;
+}
+.single-exception,table tr td.single-exception{
+    color:#f02c2c;
+    font-weight:bold;
+}
+.border-right-grey{
+    border-right:1px solid #eee;
+}
+.border-bottom-grey{
+    border-bottom:1px solid #eee;
+}
+.multi-row{
+    padding:0 !important;
+}
+.multi-row p{
+    height:49px;
+    line-height:33px;
+    margin:0;
+    padding:8px 20px;
+}
+.btn-findup{
+    display: none;
+    background-color: #bbcd91;
+    color:#fff;
+    margin-left:10px;
+}
+.btn-findup:hover{
+    color:#fff;
+}
+tr:hover .btn-findup{
+    display: inline-block;
+}
+.width-fixed{
+    min-width:220px;
+}
+.wait-setting{
+    margin:0 50px 0 20px;
+    padding:5px 5px 5px 20px;
+    border:1px solid #eee;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    font-size:12px;
+    color:#8c8c8c;
+    background-color:#fbfbfb;
+    background:url('../img/cut-set/jcsz1.png') no-repeat left center;
+    cursor:pointer;
+}
+.dialog-calender .search-date{
+    width:100%;
+    top:0;
+    vertical-align: middle;
+}
+.gd-btn-sure{
+    margin-top:25px;
+    background-color: #3893c7;
+    color:#fff;
+}
+.gd-btn-sure:hover,
+.wait-btn-delete:hover{
+    color:#fff;
+}
+.wait-btn-delete{
+    background-color:#f2a838;
+    color:#fff;
+}
+.wait-page-index{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+}
+.wait-feedback{
+    text-align: center;
 }
