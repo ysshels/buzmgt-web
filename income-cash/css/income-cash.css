@@ -284,6 +284,7 @@ table tr.status-exception td{
     background-color: #bbcd91;
     color:#fff;
     margin-left:10px;
+    padding:0 3px;
 }
 .btn-findup:hover{
     color:#fff;
