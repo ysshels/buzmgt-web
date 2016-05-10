@@ -26,6 +26,10 @@
 .icon-water{
     background: url("../img/water-order/ls.png")no-repeat center;
 }
+
+.icon-yw{
+    background: url("../img/basin_yw/bt.png") no-repeat center;
+}
 .text-hd{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -82,6 +86,13 @@
     font-size: 10px;
     font-weight: 500;
     color: #555555;
+}
+
+.text-dk{
+    font-size: 12px;
+    font-weight: 900;
+    color: #555555;
+    margin-bottom:30px;
 }
 
 .jll{
@@ -171,7 +182,6 @@
     background-color: #ffffff;
     border:1px silver solid;
     border-radius: 3px;
-
 }
 
 .form-tq{
@@ -187,6 +197,7 @@
 .exc-h{
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 25px;
 }
 
 .exc-hh{
@@ -200,7 +211,7 @@
 }
 
 .time-c{
-  margin-left:40px;
+  margin-left:25px;
 }
 
 .link-posit-t {
@@ -242,3 +253,73 @@
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+.tb-basin{
+   line-height: 100px;
+}
+
+.salesman{
+    float: left;
+    margin-left: 20px;
+}
+
+.export{
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.icon-wz{
+    float: left;
+    margin-left: 30px;
+}
+
+.btn-green{
+    color: #ffffff;
+    background-color:#a3be65;
+    border-color: #a3be65;
+}
+.btn-green:hover,.btn-green:active,.btn-green:focus{
+    color: #FFF;
+}
+
+.btn-w{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.table-overflow-e {
+    position: relative;
+    margin-bottom: 15px;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.btn-qx{
+    float: left;
+    margin-left: 130px;
+}
+
+.btn-dd{
+    float: left;
+    margin-left: 10px;
+}
+
+.btn-d{
+    width: 95px;
+    height: 40px;
+}
+
+.icon-xm{
+    background: url("../img/basin_yw/xm.png") no-repeat center;
+}
+
+.icon-id{
+    background: url("../img/basin_yw/id.png") no-repeat center;
+}
+
+.icon-yh{
+    background: url("../img/basin_yw/yh.png") no-repeat center;
+}
+.icon-fk{
+    background: url("../img/basin_yw/fk.png") no-repeat center;
+}
+
