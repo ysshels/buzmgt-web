@@ -26,12 +26,9 @@
 .icon-water{
     background: url("../img/water-order/ls.png")no-repeat center;
 }
-.icon-wait-setting{
-    display: inline-block;
-    margin-right:3px;
-    padding:7px;
-    background:url(../img/check-pending/setting.png) no-repeat;
-    vertical-align: middle;
+
+.icon-yw{
+    background: url("../img/basin_yw/bt.png") no-repeat center;
 }
 .text-hd{
     margin-bottom: 20px;
@@ -89,6 +86,13 @@
     font-size: 10px;
     font-weight: 500;
     color: #555555;
+}
+
+.text-dk{
+    font-size: 12px;
+    font-weight: 900;
+    color: #555555;
+    margin-bottom:30px;
 }
 
 .jll{
@@ -186,10 +190,10 @@
 }
 
 .area{
-     float: left;
-     width: 400px;
+    float: left;
+    width: 400px;
 
- }
+}
 .exc-h{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -206,7 +210,7 @@
 }
 
 .time-c{
-  margin-left:40px;
+    margin-left:25px;
 }
 
 .link-posit-t {
@@ -241,92 +245,76 @@
 }
 
 .tb-in{
-   padding-left: 0px;
+    padding-left: 0px;
 }
 
 .tb-nb{
     margin-bottom: 0px;
     margin-top: 0px;
 }
-.check-btn{
-    margin-left:11px;
-    margin-right:44px;
+
+.salesman{
+    float: left;
+    margin-left: 20px;
 }
-.salesman-input{
-    padding-left:5px;
-    color: #919191;
-    font-size: 12px;
+
+.export{
+    margin-top: 5px;
+    margin-right: 25px;
 }
-table tr.status-exception td{
-    color:#f02c2c;
+
+.icon-wz{
+    float: left;
+    margin-left: 30px;
 }
-.single-exception,table tr td.single-exception{
-    color:#f02c2c;
-    font-weight:bold;
+
+.btn-green{
+    color: #ffffff;
+    background-color:#a3be65;
+    border-color: #a3be65;
 }
-.border-right-grey{
-    border-right:1px solid #eee;
+.btn-green:hover,.btn-green:active,.btn-green:focus{
+    color: #FFF;
 }
-.border-bottom-grey{
-    border-bottom:1px solid #eee;
+
+.btn-w{
+    margin-left: 20px;
+    margin-right: 20px;
 }
-.multi-row{
-    padding:0 !important;
+
+.table-overflow-e {
+    position: relative;
+    margin-bottom: 15px;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-.multi-row p{
-    height:49px;
-    line-height:33px;
-    margin:0;
-    padding:8px 20px;
+
+.btn-qx{
+    float: left;
+    margin-left: 130px;
 }
-.btn-findup{
-    display: none;
-    background-color: #bbcd91;
-    color:#fff;
-    margin-left:10px;
-    padding:0 3px;
+
+.btn-dd{
+    float: left;
+    margin-left: 10px;
 }
-.btn-findup:hover{
-    color:#fff;
+
+.btn-d{
+    width: 95px;
+    height: 40px;
 }
-tr:hover .btn-findup{
-    display: inline-block;
+
+.icon-xm{
+    background: url("../img/basin_yw/xm.png") no-repeat center;
 }
-.width-fixed{
-    min-width:220px;
+
+.icon-id{
+    background: url("../img/basin_yw/id.png") no-repeat center;
 }
-.wait-setting{
-    margin-left:5px;
-    margin-right:40px;
-    padding:3px;
-    background-color:#fbfbfb;
-    color:#8c8c8c;
-    border:1px solid #eee;
-    font-size:12px;
+
+.icon-yh{
+    background: url("../img/basin_yw/yh.png") no-repeat center;
 }
-.dialog-calender .search-date{
-    width:100%;
-    top:0;
-    vertical-align: middle;
+.icon-fk{
+    background: url("../img/basin_yw/fk.png") no-repeat center;
 }
-.gd-btn-sure{
-    margin-top:25px;
-    background-color: #3893c7;
-    color:#fff;
-}
-.gd-btn-sure:hover,
-.wait-btn-delete:hover{
-    color:#fff;
-}
-.wait-btn-delete{
-    background-color:#f2a838;
-    color:#fff;
-}
-.wait-page-index{
-    width:500px;
-    margin:0 auto;
-    text-align: center;
-}
-.wait-feedback{
-    text-align: center;
-}
+
