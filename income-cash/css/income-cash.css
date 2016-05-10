@@ -30,6 +30,10 @@
 .icon-yw{
     background: url("../img/basin_yw/bt.png") no-repeat center;
 }
+
+html{
+    background-color: #fafafa;
+}
 .text-hd{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -212,6 +216,7 @@
 .exc-hh{
     margin-top: 15px;
     margin-bottom: 10px;
+  padding-right: 20px;
 }
 
 
@@ -285,7 +290,6 @@
 }
 
 .btn-w{
-    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -325,6 +329,10 @@
     background: url("../img/basin_yw/fk.png") no-repeat center;
 }
 
+.icon-addd {
+    background: url(../img/basin_yw/addd.png) no-repeat center;
+}
+
 .tb-basin tr>td>p{
     margin-left: -20px;
     margin-right: -8px;
@@ -341,4 +349,29 @@
 }
 .tb-basin tr>td>p:last-child{
     margin-bottom: -8px;
+}
+tr:hover .btn-card {
+    display: block;
+}
+.btn-card {
+    display: none;
+    padding: 2px 2px;
+    position: absolute;
+    right: 10%;
+    top: 12px;
+}
+.name-posit{
+    position: relative;
+}
+
+tr:hover .btn-card-more {
+    display: block;
+}
+
+.btn-card-more {
+    display: none;
+    padding: 2px 2px;
+    position: absolute;
+    right: 10%;
+    top: 40%;
 }
